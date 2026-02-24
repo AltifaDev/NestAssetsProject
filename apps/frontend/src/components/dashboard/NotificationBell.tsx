@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { Bell } from 'lucide-react';
-import { apiClient } from '../../lib/api-client';
+import { apiClient, API_BASE_URL } from '../../lib/api-client';
 
 export default function NotificationBell() {
     const [showDropdown, setShowDropdown] = useState(false);
@@ -25,14 +25,19 @@ export default function NotificationBell() {
         const fetchRecentLeads = async () => {
             try {
                 const user = apiClient.getUser();
-                if (!user || user.role !== 'agent') return;
+                if (!user || (user.role !== 'agent' && user.role !== 'admin')) return;
 
                 let agentId = user.agent;
                 if (typeof agentId === 'object' && agentId !== null) {
                     agentId = agentId.id;
                 }
 
-                const res = await fetch(`${API_BASE_URL}/api/leads?where[agent][equals]=${agentId}&sort=-createdAt&limit=5`);
+                // If admin, we don't filter by agentId
+                const url = user.role === 'admin'
+                    ? `${API_BASE_URL}/api/leads?sort=-createdAt&limit=5`
+                    : `${API_BASE_URL}/api/leads?where[agent][equals]=${agentId}&sort=-createdAt&limit=5`;
+
+                const res = await fetch(url);
                 if (!res.ok) return;
 
                 const data = await res.json();
