@@ -25,7 +25,19 @@ export function setupApp(app: INestApplication) {
 
     // Enable CORS for frontend connection
     app.enableCors({
-        origin: process.env.CORS_ORIGIN?.split(',') || '*',
+        origin: (origin, callback) => {
+            const allowedOrigins = [
+                'http://localhost:3000',
+                'https://nest-assets-web.vercel.app',
+                ...(process.env.CORS_ORIGIN?.split(',') || [])
+            ];
+
+            if (!origin || allowedOrigins.includes(origin) || allowedOrigins.includes('*')) {
+                callback(null, true);
+            } else {
+                callback(new Error('Not allowed by CORS'));
+            }
+        },
         methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
         credentials: true,
     });
