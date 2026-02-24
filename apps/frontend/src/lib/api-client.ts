@@ -17,8 +17,10 @@ export const supabase = createClient(supabaseUrl, supabaseKey);
 const formatMediaUrl = (url: string | null | undefined): string => {
   if (!url) return '';
   if (url.startsWith('http')) return url;
+
+  const base = API_BASE_URL.endsWith('/') ? API_BASE_URL.slice(0, -1) : API_BASE_URL;
   const path = url.startsWith('/') ? url : `/${url}`;
-  return `${API_BASE_URL}${path}`;
+  return `${base}${path}`;
 };
 
 export interface SearchFilters {
@@ -172,7 +174,9 @@ class APIClient {
   }
 
   private async request<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
-    const url = `${this.baseURL}${endpoint}`;
+    const base = this.baseURL.endsWith('/') ? this.baseURL.slice(0, -1) : this.baseURL;
+    const path = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
+    const url = `${base}${path}`;
 
     const headers: Record<string, string> = {
       'Content-Type': 'application/json',
@@ -308,7 +312,8 @@ class APIClient {
     const formData = new FormData();
     formData.append('file', file);
 
-    const url = `${this.baseURL}/api/media/upload`;
+    const base = this.baseURL.endsWith('/') ? this.baseURL.slice(0, -1) : this.baseURL;
+    const url = `${base}/api/media/upload`;
 
     const response = await fetch(url, {
       method: 'POST',

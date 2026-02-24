@@ -9,6 +9,7 @@ export function setupApp(app: INestApplication) {
     // Security headers with Helmet
     app.use(helmet({
         contentSecurityPolicy: process.env.NODE_ENV === 'production' ? undefined : false,
+        crossOriginResourcePolicy: { policy: "cross-origin" },
     }));
 
     // Rate limiting - 100 requests per minute per IP
