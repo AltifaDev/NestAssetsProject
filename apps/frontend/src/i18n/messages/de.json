@@ -70,6 +70,7 @@
     "searchDestination": "Zielort suchen..."
   },
   "auth": {
+    "backToHome": "Zurück zur Startseite",
     "login": {
       "title": "Willkommen zurück",
       "subtitle": "Melden Sie sich an, um Favoriten zu speichern",
@@ -111,6 +112,10 @@
     "title": "MAKLER",
     "highlight": "ZUGANG",
     "subtitle": "Anmelden zur Verwaltung Ihrer Inserate",
+    "fields": {
+      "email": "E-Mail-Adresse",
+      "password": "Passwort"
+    },
     "placeholders": {
       "email": "Makler E-Mail",
       "password": "Passwort"
@@ -190,10 +195,10 @@
     "visitPortal": "Zum Portal",
     "priceValue": "{value}M THB",
     "types": {
-      "singleHouse": "Einfamilienhaus",
-      "condo": "Condo",
-      "luxuryCondo": "Luxus Condo",
-      "semiDetached": "Doppelhaushälfte"
+      "hospitality": "Gastronomie",
+      "wellness": "Wellness & Spa",
+      "commercial": "Gewerbe",
+      "retail": "Einzelhandel"
     }
   },
   "popularLocations": {
@@ -487,5 +492,12 @@
       "dedicatedAccount": "Account Manager",
       "sla": "SLA"
     }
+  },
+  "businessTypes": {
+    "equity": "Private Equity",
+    "hospitality": "Gastronomie",
+    "wellness": "Wellness & Spa",
+    "retail": "Einzelhandel",
+    "business": "Geschäftsentwicklung"
   }
 }

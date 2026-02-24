@@ -70,6 +70,7 @@
     "searchDestination": "搜索目的地..."
   },
   "auth": {
+    "backToHome": "返回首页",
     "login": {
       "title": "欢迎回来",
       "subtitle": "登录以访问专业房产数据和保存的投资组合。",
@@ -194,10 +195,10 @@
     "visitPortal": "访问完整门户",
     "priceValue": "{value}百万泰铢",
     "types": {
-      "singleHouse": "独栋别墅",
-      "condo": "公寓",
-      "luxuryCondo": "豪华公寓",
-      "semiDetached": "双拼别墅"
+      "hospitality": "酒店服务",
+      "wellness": "大健康",
+      "commercial": "商业地产",
+      "retail": "零售业务"
     }
   },
   "popularLocations": {
@@ -491,5 +492,12 @@
       "dedicatedAccount": "专属客户经理",
       "sla": "SLA 保证"
     }
+  },
+  "businessTypes": {
+    "equity": "私募股权",
+    "hospitality": "酒店服务",
+    "wellness": "大健康",
+    "retail": "零售业务",
+    "business": "业务开发"
   }
 }

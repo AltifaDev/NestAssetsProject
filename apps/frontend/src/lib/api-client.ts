@@ -173,7 +173,7 @@ class APIClient {
     }
   }
 
-  private async request<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
+  private async request<T>(endpoint: string, options: RequestInit & { skipLogout?: boolean } = {}): Promise<T> {
     const base = this.baseURL.endsWith('/') ? this.baseURL.slice(0, -1) : this.baseURL;
     const path = endpoint.startsWith('/') ? endpoint : `/${endpoint}`;
     const url = `${base}${path}`;
@@ -193,7 +193,7 @@ class APIClient {
         headers,
       });
 
-      if (response.status === 401 && typeof window !== 'undefined') {
+      if (response.status === 401 && !options.skipLogout && typeof window !== 'undefined') {
         // Handle unauthorized (token expired)
         this.logout();
       }
@@ -270,7 +270,7 @@ class APIClient {
   // Property methods
   async getProperties() {
     try {
-      const properties = await this.request<any[]>('/api/properties');
+      const properties = await this.request<any[]>('/api/properties', { skipLogout: true });
       return { docs: properties || [] };
     } catch (error) {
       console.error('Failed to fetch properties:', error);
@@ -342,7 +342,7 @@ class APIClient {
 
     try {
       // Primary: Call the NestJS backend
-      properties = await this.request<any[]>('/api/properties');
+      properties = await this.request<any[]>('/api/properties', { skipLogout: true });
       console.log('📡 API Client - properties from backend:', properties?.length);
     } catch (err) {
       console.warn('⚠️ Backend unreachable, falling back to direct Supabase query');
@@ -494,7 +494,7 @@ class APIClient {
 
   // Get property details by ID
   async getProperty(id: string): Promise<Property | null> {
-    const prop = await this.request<any>(`/api/properties/${id}`);
+    const prop = await this.request<any>(`/api/properties/${id}`, { skipLogout: true });
     if (!prop) return null;
 
     const lat = prop.lat ?? prop.location_lat ?? 13.7563;
@@ -557,7 +557,7 @@ class APIClient {
   // Get featured properties
   async getFeaturedProperties(): Promise<Property[]> {
     // Use backend for consistency if possible, but keep featured as specialized call
-    const properties = await this.request<any[]>('/api/properties');
+    const properties = await this.request<any[]>('/api/properties', { skipLogout: true });
     return properties.filter(p => p.featured).slice(0, 6).map(prop => ({
       id: prop.id.toString(),
       title: prop.title,

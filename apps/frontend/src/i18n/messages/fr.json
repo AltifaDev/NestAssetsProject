@@ -70,6 +70,7 @@
     "searchDestination": "Rechercher une destination..."
   },
   "auth": {
+    "backToHome": "Retour à l'accueil",
     "login": {
       "title": "Bon retour",
       "subtitle": "Connectez-vous pour explorer les propriétés et sauvegarder vos favoris",
@@ -111,6 +112,10 @@
     "title": "AGENT",
     "highlight": "ACCÈS",
     "subtitle": "Veuillez vous connecter pour gérer vos annonces",
+    "fields": {
+      "email": "Identité de l'agent",
+      "password": "Clé de sécurité"
+    },
     "placeholders": {
       "email": "E-mail Agent",
       "password": "Mot de passe"
@@ -190,10 +195,10 @@
     "visitPortal": "Visiter le portail complet",
     "priceValue": "{value}M THB",
     "types": {
-      "singleHouse": "Maison individuelle",
-      "condo": "Condominium",
-      "luxuryCondo": "Condo de luxe",
-      "semiDetached": "Maison jumelée"
+      "hospitality": "Hôtellerie",
+      "wellness": "Bien-être & Spa",
+      "commercial": "Commercial",
+      "retail": "Opérations de détail"
     }
   },
   "popularLocations": {
@@ -487,5 +492,12 @@
       "dedicatedAccount": "Compte dédié",
       "sla": "Garantie SLA"
     }
+  },
+  "businessTypes": {
+    "equity": "Private Equity",
+    "hospitality": "Hôtellerie",
+    "wellness": "Bien-être & Spa",
+    "retail": "Opérations de détail",
+    "business": "Développement commercial"
   }
 }

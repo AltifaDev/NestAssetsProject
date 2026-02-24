@@ -70,6 +70,7 @@
     "searchDestination": "目的地を検索..."
   },
   "auth": {
+    "backToHome": "ホームに戻る",
     "login": {
       "title": "おかえりなさい",
       "subtitle": "サインインして物件を探索し、お気に入りを保存しましょう",
@@ -111,6 +112,10 @@
     "title": "エージェント",
     "highlight": "アクセス",
     "subtitle": "サインインしてリスティングを管理してください",
+    "fields": {
+      "email": "エージェントID",
+      "password": "パスワード"
+    },
     "placeholders": {
       "email": "エージェントメール",
       "password": "パスワード"
@@ -190,10 +195,10 @@
     "visitPortal": "フルポータルを訪問",
     "priceValue": "{value}百万バーツ",
     "types": {
-      "singleHouse": "一戸建て",
-      "condo": "コンドミニアム",
-      "luxuryCondo": "高級コンドミニアム",
-      "semiDetached": "セミデタッチドハウス"
+      "hospitality": "ホスピタリティ",
+      "wellness": "ウェルネス＆スパ",
+      "commercial": "商業用",
+      "retail": "小売業"
     }
   },
   "popularLocations": {
@@ -487,5 +492,12 @@
       "dedicatedAccount": "専用アカウント",
       "sla": "SLA 保証"
     }
+  },
+  "businessTypes": {
+    "equity": "プライベート・エクイティ",
+    "hospitality": "ホスピタリティ",
+    "wellness": "ウェルネス＆スパ",
+    "retail": "小売業",
+    "business": "事業開発"
   }
 }

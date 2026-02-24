@@ -70,6 +70,7 @@
     "searchDestination": "Поиск направления..."
   },
   "auth": {
+    "backToHome": "Вернуться на главную",
     "login": {
       "title": "С возвращением",
       "subtitle": "Войдите, чтобы искать недвижимость и сохранять избранное",
@@ -111,6 +112,10 @@
     "title": "АГЕНТ",
     "highlight": "ДОСТУП",
     "subtitle": "Войдите, чтобы управлять вашими объектами",
+    "fields": {
+      "email": "ID агента",
+      "password": "Пароль"
+    },
     "placeholders": {
       "email": "Email агента",
       "password": "Пароль"
@@ -190,10 +195,10 @@
     "visitPortal": "Перейти на портал",
     "priceValue": "{value} млн бат",
     "types": {
-      "singleHouse": "Отдельный дом",
-      "condo": "Кондоминиум",
-      "luxuryCondo": "Люкс кондо",
-      "semiDetached": "Смежный дом"
+      "hospitality": "Гостеприимство",
+      "wellness": "Wellness и спа",
+      "commercial": "Коммерческая",
+      "retail": "Ритейл"
     }
   },
   "popularLocations": {
@@ -487,5 +492,12 @@
       "dedicatedAccount": "Персональный менеджер",
       "sla": "Гарантия SLA"
     }
+  },
+  "businessTypes": {
+    "equity": "Прямые инвестиции",
+    "hospitality": "Гостеприимство",
+    "wellness": "Wellness и спа",
+    "retail": "Ритейл",
+    "business": "Развитие бизнеса"
   }
 }

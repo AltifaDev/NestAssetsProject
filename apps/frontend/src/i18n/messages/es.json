@@ -70,6 +70,7 @@
     "searchDestination": "Buscar destino..."
   },
   "auth": {
+    "backToHome": "Volver al Inicio",
     "login": {
       "title": "Bienvenido de nuevo",
       "subtitle": "Inicie sesión para explorar propiedades y guardar favoritos",
@@ -111,6 +112,10 @@
     "title": "AGENTE",
     "highlight": "ACCESO",
     "subtitle": "Inicie sesión para gestionar sus listados",
+    "fields": {
+      "email": "Identidad del Agente",
+      "password": "Clave de Seguridad"
+    },
     "placeholders": {
       "email": "Correo del agente",
       "password": "Contraseña"
@@ -190,10 +195,10 @@
     "visitPortal": "Visitar portal completo",
     "priceValue": "{value}M THB",
     "types": {
-      "singleHouse": "Casa independiente",
-      "condo": "Condominio",
-      "luxuryCondo": "Condo de lujo",
-      "semiDetached": "Casa pareada"
+      "hospitality": "Hospitalidad",
+      "wellness": "Wellness y Spa",
+      "commercial": "Comercial",
+      "retail": "Ventas al por menor"
     }
   },
   "popularLocations": {
@@ -487,5 +492,12 @@
       "dedicatedAccount": "Cuenta dedicada",
       "sla": "Garantía SLA"
     }
+  },
+  "businessTypes": {
+    "equity": "Capital Privado",
+    "hospitality": "Hospitalidad",
+    "wellness": "Wellness y Spa",
+    "retail": "Ventas al por menor",
+    "business": "Desarrollo de Negocios"
   }
 }

@@ -70,6 +70,7 @@
     "searchDestination": "목적지 검색..."
   },
   "auth": {
+    "backToHome": "홈으로 돌아가기",
     "login": {
       "title": "다시 오신 것을 환영합니다",
       "subtitle": "로그인하여 부동산을 탐색하고 즐겨찾기를 저장하세요",
@@ -111,6 +112,10 @@
     "title": "에이전트",
     "highlight": "액세스",
     "subtitle": "매물을 관리하려면 로그인하세요",
+    "fields": {
+      "email": "에이전트 이메일",
+      "password": "비밀번호"
+    },
     "placeholders": {
       "email": "에이전트 이메일",
       "password": "비밀번호"
@@ -190,10 +195,10 @@
     "visitPortal": "전체 포털 방문",
     "priceValue": "{value}백만 바트",
     "types": {
-      "singleHouse": "단독 주택",
-      "condo": "콘도미니엄",
-      "luxuryCondo": "럭셔리 콘도",
-      "semiDetached": "세미 디태치드"
+      "hospitality": "환대 산업",
+      "wellness": "웰니스 및 스파",
+      "commercial": "상업용",
+      "retail": "소매업"
     }
   },
   "popularLocations": {
@@ -487,5 +492,12 @@
       "dedicatedAccount": "전담 계정 관리자",
       "sla": "SLA 보장"
     }
+  },
+  "businessTypes": {
+    "equity": "사모 펀드",
+    "hospitality": "환대 산업",
+    "wellness": "웰니스 및 스파",
+    "retail": "소매업",
+    "business": "사업 개발"
   }
 }

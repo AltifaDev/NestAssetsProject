@@ -10,18 +10,14 @@ import { CurrentUser } from '../common/decorators/current-user.decorator';
 import { Roles } from '../common/decorators/roles.decorator';
 
 @ApiTags('Properties')
-@ApiBearerAuth('JWT-auth')
 @Controller('properties')
-@UseGuards(JwtAuthGuard, RolesGuard)
 export class PropertiesController {
     constructor(private readonly propertiesService: PropertiesService) { }
 
     @Get()
-    @ApiOperation({ summary: 'Get all properties', description: 'Retrieve properties with filtering and pagination. Agents see only their own properties, admins see all.' })
-    @ApiResponse({ status: 200, description: 'Properties retrieved successfully' })
-    @ApiResponse({ status: 401, description: 'Unauthorized' })
-    async getAll(@CurrentUser() user: any, @Query() filters: PropertyFilters) {
-        return this.propertiesService.getProperties(user.id, user.role, filters);
+    @ApiOperation({ summary: 'Get all properties', description: 'Retrieve properties with filtering and pagination. Public access retrieves all active properties.' })
+    async getAll(@Query() filters: PropertyFilters, @CurrentUser() user?: any) {
+        return this.propertiesService.getProperties(user?.id, user?.role, filters);
     }
 
     @Get(':id')
@@ -29,12 +25,13 @@ export class PropertiesController {
     @ApiParam({ name: 'id', description: 'Property UUID', example: '123e4567-e89b-12d3-a456-426614174000' })
     @ApiResponse({ status: 200, description: 'Property retrieved successfully' })
     @ApiResponse({ status: 404, description: 'Property not found' })
-    @ApiResponse({ status: 401, description: 'Unauthorized' })
     async getOne(@Param('id') id: string) {
         return this.propertiesService.getPropertyById(id);
     }
 
     @Post()
+    @UseGuards(JwtAuthGuard, RolesGuard)
+    @ApiBearerAuth('JWT-auth')
     @ApiOperation({ summary: 'Create property', description: 'Create a new property listing. Property is automatically associated with the authenticated agent.' })
     @ApiBody({ type: CreatePropertyDto })
     @ApiResponse({ status: 201, description: 'Property created successfully' })
@@ -45,6 +42,8 @@ export class PropertiesController {
     }
 
     @Put(':id')
+    @UseGuards(JwtAuthGuard, RolesGuard)
+    @ApiBearerAuth('JWT-auth')
     @ApiOperation({ summary: 'Update property', description: 'Update an existing property. Agents can only update their own properties.' })
     @ApiParam({ name: 'id', description: 'Property UUID', example: '123e4567-e89b-12d3-a456-426614174000' })
     @ApiBody({ type: UpdatePropertyDto })
@@ -58,6 +57,8 @@ export class PropertiesController {
     }
 
     @Delete(':id')
+    @UseGuards(JwtAuthGuard, RolesGuard)
+    @ApiBearerAuth('JWT-auth')
     @ApiOperation({ summary: 'Delete property', description: 'Soft delete a property (sets status to deleted). Agents can only delete their own properties.' })
     @ApiParam({ name: 'id', description: 'Property UUID', example: '123e4567-e89b-12d3-a456-426614174000' })
     @ApiResponse({ status: 200, description: 'Property deleted successfully' })

@@ -61,10 +61,10 @@ export class PropertiesService {
         }
     }
 
-    async getProperties(userId: string, userRole: string, filters: PropertyFilters): Promise<PaginatedResult<Property>> {
+    async getProperties(userId?: string, userRole?: string, filters: PropertyFilters = {}): Promise<PaginatedResult<Property>> {
         try {
             const client = this.supabaseService.getClient();
-            
+
             // Set default values for pagination
             const page = filters.page || 1;
             const limit = Math.min(filters.limit || 20, 100); // Max 100 items per page
@@ -101,8 +101,13 @@ export class PropertiesService {
                 `, { count: 'exact' });
 
             // Role-based filtering: Agents see only their own properties, Admins see all
-            if (userRole !== 'admin') {
+            // Public users (no role) see only active properties
+            if (userRole === 'agent') {
                 query = query.eq('agent_id', userId);
+            } else if (!userRole) {
+                // Public access: ensure we only show active properties
+                // This is also the default if no status filter is provided below
+                query = query.eq('status', 'active');
             }
 
             // Apply filters
@@ -247,7 +252,7 @@ export class PropertiesService {
             }
 
             const client = this.supabaseService.getClient();
-            
+
             // Auto-associate property with agent_id from JWT token
             const propertyData = {
                 ...createPropertyDto,
