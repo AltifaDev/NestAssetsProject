@@ -270,8 +270,9 @@ class APIClient {
   // Property methods
   async getProperties() {
     try {
-      const properties = await this.request<any[]>('/api/properties', { skipLogout: true });
-      return { docs: properties || [] };
+      const response = await this.request<any>('/api/properties', { skipLogout: true });
+      const properties = Array.isArray(response) ? response : (response?.data || []);
+      return { docs: properties };
     } catch (error) {
       console.error('Failed to fetch properties:', error);
       return { docs: [] };
@@ -342,7 +343,8 @@ class APIClient {
 
     try {
       // Primary: Call the NestJS backend
-      properties = await this.request<any[]>('/api/properties', { skipLogout: true });
+      const response = await this.request<any>('/api/properties', { skipLogout: true });
+      properties = Array.isArray(response) ? response : (response?.data || []);
       console.log('📡 API Client - properties from backend:', properties?.length);
     } catch (err) {
       console.warn('⚠️ Backend unreachable, falling back to direct Supabase query');
@@ -557,8 +559,9 @@ class APIClient {
   // Get featured properties
   async getFeaturedProperties(): Promise<Property[]> {
     // Use backend for consistency if possible, but keep featured as specialized call
-    const properties = await this.request<any[]>('/api/properties', { skipLogout: true });
-    return properties.filter(p => p.featured).slice(0, 6).map(prop => ({
+    const response = await this.request<any>('/api/properties', { skipLogout: true });
+    const properties = Array.isArray(response) ? response : (response?.data || []);
+    return properties.filter((p: any) => p.featured).slice(0, 6).map((prop: any) => ({
       id: prop.id.toString(),
       title: prop.title,
       price: prop.price,
