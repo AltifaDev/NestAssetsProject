@@ -1,0 +1,495 @@
+{
+  "nav": {
+    "services": "服务",
+    "portfolio": "投资组合",
+    "contact": "联系我们",
+    "signIn": "登录",
+    "agentPortal": "代理商门户"
+  },
+  "hero": {
+    "title": "Nest of Assets Co, Ltd",
+    "subtitle": "私募股权：资产管理与业务开发",
+    "getConsultation": "预约咨询",
+    "viewPortfolio": "查看投资组合",
+    "privateEquity": "私募股权",
+    "assetManagement": "资产管理",
+    "businessDevelopment": "业务开发"
+  },
+  "search": {
+    "properties": "房产",
+    "condos": "公寓",
+    "houses": "别墅/住宅",
+    "land": "土地",
+    "commercial": "商业地产",
+    "investment": "投资",
+    "forSale": "出售",
+    "forRent": "出租",
+    "country": "泰国",
+    "cityPlaceholder": "城市或项目...",
+    "priceRange": "价格范围",
+    "anyPrice": "不限价格",
+    "bedrooms": "卧室",
+    "anyBedrooms": "不限卧室",
+    "search": "搜索",
+    "advancedFilters": "高级筛选",
+    "minPrice": "最低价格",
+    "maxPrice": "最高价格",
+    "noLimit": "不限",
+    "under5m": "500万以下",
+    "5m10m": "500万 - 1000万",
+    "10m20m": "1000万 - 2000万",
+    "20mPlus": "2000万以上",
+    "studio": "单身公寓",
+    "1bed": "1 卧室",
+    "2beds": "2 卧室",
+    "3beds": "3 卧室",
+    "4bedsPlus": "4 卧室以上",
+    "physicalSpecs": "物理规格",
+    "listingType": "列表类型",
+    "newProjects": "新项目",
+    "resale": "二手房",
+    "bathrooms": "浴室",
+    "any": "不限",
+    "livingArea": "居住面积 (平米)",
+    "min": "最小",
+    "max": "最大",
+    "amenitiesLifestyle": "设施与配套",
+    "viewHighlights": "查看亮点",
+    "seaView": "🌊 海景",
+    "cityView": "🏙️ 城景",
+    "gardenView": "🌳 园景",
+    "resetAll": "重置全部",
+    "applyFilters": "应用筛选",
+    "worldRegions": "世界区域",
+    "allRegions": "所有区域",
+    "asia": "亚洲",
+    "europe": "欧洲",
+    "americas": "美洲",
+    "middleEast": "中东",
+    "africa": "非洲",
+    "searchDestination": "搜索目的地..."
+  },
+  "auth": {
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "登录以访问专业房产数据和保存的投资组合。",
+      "submit": "登录",
+      "togglePrompt": "尚未加入我们的网络？",
+      "toggleAction": "申请访问权限"
+    },
+    "register": {
+      "title": "加入网络",
+      "subtitle": "创建账户以解锁高级见解和投资组合工具。",
+      "submit": "创建账户",
+      "togglePrompt": "已经有账户了？",
+      "toggleAction": "授权访问"
+    },
+    "fields": {
+      "email": "注册电子邮件",
+      "password": "安全密码",
+      "fullName": "实体/个人名称",
+      "phone": "联系电话",
+      "forgot": "重置？"
+    },
+    "placeholders": {
+      "email": "name@nestassets.com",
+      "fullName": "输入全名",
+      "phone": "+66 XX XXX XXXX"
+    },
+    "social": {
+      "continueWith": "安全身份验证",
+      "google": "Google",
+      "facebook": "Facebook"
+    },
+    "agentPortal": "仅限授权人员",
+    "messages": {
+      "alreadyRegistered": "身份已验证。请直接登录。",
+      "confirmationSent": "验证链接已发送。请检查您的收件箱。"
+    }
+  },
+  "agentLogin": {
+    "title": "代理商",
+    "highlight": "访问",
+    "subtitle": "请登录以管理您的房源",
+    "fields": {
+      "email": "代理身份",
+      "password": "安全密钥"
+    },
+    "placeholders": {
+      "email": "注册电子邮件地址",
+      "password": "••••••••"
+    },
+    "submit": "登录控制面板",
+    "errors": {
+      "accessDenied": "访问被拒绝。此门户仅限代理商。",
+      "loginFailed": "登录失败。请检查您的凭据。"
+    }
+  },
+  "features": {
+    "title": "全面的商业解决方案",
+    "description": "我们利用我们的专业知识和当地知识提供量身定制的全面商业解决方案，确保您在泰国的成功。",
+    "equity": "私募股权与投资",
+    "hospitality": "酒店与酒吧筹建",
+    "massage": "按摩业务运营",
+    "realEstate": "房地产与收购",
+    "getStarted": "立即开始",
+    "salesOvertime": "销售推移",
+    "monthlySales": "月销售额",
+    "totalProduct": "产品总数",
+    "revenue": "收入",
+    "salesCount": "{count} 笔销售",
+    "days": {
+      "jan1": "1月1日",
+      "jan2": "1月2日",
+      "jan3": "1月3日",
+      "jan4": "1月4日",
+      "jan5": "1月5日",
+      "jan6": "1月6日",
+      "jan7": "1月7日"
+    }
+  },
+  "roi": {
+    "title": "为投资者最大化投资回报率",
+    "description": "我们通过严格的管理和战略改进，专注于可持续增长和长期价值创造。",
+    "stableCashflow": "稳定的现金流",
+    "assetAppreciation": "资产增值",
+    "operationalEfficiency": "运营效率",
+    "strategicExits": "战略退出",
+    "netProfit": "净利润"
+  },
+  "portfolio": {
+    "title": "多元化的投资组合",
+    "description": "在多个行业中平衡高收益资产组合，确保合作伙伴的稳定和长期增长。",
+    "hospitality": "酒店与旅游",
+    "commercial": "商业地产",
+    "retail": "零售业务",
+    "digital": "数字创业",
+    "portfolioGrowth": "投资组合增长",
+    "revenueGrowth": "收入增长"
+  },
+  "propHub": {
+    "titleLeft": "从我们的家...",
+    "titleLeftSub": "到您的家",
+    "descLeft": "为您房地产之旅的每一步提供专家指导。",
+    "guideBadge": "房产指南",
+    "guideTitle": "买卖、租赁和投资的专家建议",
+    "explore": "探索",
+    "agentBadge": "房地产代理",
+    "agentTitle": "专业代理帮您寻找家园",
+    "findAgent": "寻找代理",
+    "titleRight": "开始您的",
+    "homeJourney": "家园之旅",
+    "descRight": "发现全国最受期待的新系列项目。",
+    "featuredBadge": "2026年度特色系列",
+    "dreamHomeTitle": "在黄金地段发现您的梦幻家园",
+    "viewNewProjects": "查看新项目",
+    "newmarketPreview": "新市场预览"
+  },
+  "latestProjects": {
+    "title": "最新 <span class='text-gradient'>项目启动</span>",
+    "description": "探索我们在全泰国高潜力地段精心挑选的高端房地产开发项目。",
+    "viewAll": "查看所有房产",
+    "newProject": "新项目",
+    "startingPriceLabel": "起价",
+    "visitPortal": "访问完整门户",
+    "priceValue": "{value}百万泰铢",
+    "types": {
+      "singleHouse": "独栋别墅",
+      "condo": "公寓",
+      "luxuryCondo": "豪华公寓",
+      "semiDetached": "双拼别墅"
+    }
+  },
+  "popularLocations": {
+    "title": "泰国 <span class='text-gradient'>热门地点</span>",
+    "searchByProvince": "按省份搜索",
+    "listingsTitle": "租售列表",
+    "listingsDesc": "无论您是在寻找家园还是投资，我们都提供广泛的房屋、公寓和土地列表。",
+    "condoTitle": "公寓项目",
+    "condoDesc": "发现新的和二手公寓项目。提供详细信息、高清照片和黄金地段。",
+    "reviewsTitle": "新项目评论",
+    "reviewsDesc": "对新公寓和住宅的深入见解。我们带您了解每一个细节，帮您做出明智决定。",
+    "tipsTitle": "专家房地产技巧",
+    "tipsDesc": "您获取买卖和租赁知识的首要资源，包括贷款、利率和税收。",
+    "cities": {
+      "bangkok": "曼谷",
+      "nonthaburi": "暖武里",
+      "pathumThani": "巴吞他尼",
+      "chiangMai": "清迈",
+      "chiangRai": "清莱",
+      "chonburi": "春武里",
+      "huaHin": "华欣",
+      "phuket": "普吉岛",
+      "rayong": "罗勇",
+      "suratThani": "素叻他尼",
+      "nakhonRatchasima": "呵叻",
+      "khonKaen": "孔敬",
+      "pattaya": "芭提雅",
+      "kohSamui": "苏梅岛",
+      "pakChong": "巴冲",
+      "phangNga": "攀牙"
+    }
+  },
+  "footer": {
+    "experience": "随时随地体验我们的平台",
+    "getItOn": "立即获取",
+    "downloadOn": "下载应用",
+    "connect": "关注我们",
+    "missionText": "泰国首屈一指的房地产情报中心。我们为寻求在泰国房地产市场导航的买家、租户和机构投资者提供专家数据和全面平台。",
+    "aboutMission": "关于我们的使命",
+    "saleTitle": "购买房产",
+    "rentTitle": "租赁房产",
+    "newTitle": "新项目",
+    "links": {
+      "luxuryCondos": "豪华公寓",
+      "residentialHouses": "住宅房屋",
+      "townhomes": "联排别墅",
+      "investmentLand": "投资土地",
+      "monthlyRentals": "月租房",
+      "servicedApartments": "服务式公寓",
+      "commercialSpace": "商业空间",
+      "vacationHomes": "度假屋",
+      "offPlanProjects": "期房项目",
+      "projectReviews": "项目评论",
+      "investmentInsights": "投资见解"
+    },
+    "agentPortal": "代理商门户访问",
+    "copyright": "NEST OF ASSETS CO, LTD. 版权所有。",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "cookies": "Cookie 控制"
+  },
+  "stats": {
+    "totalAssets": "总资产",
+    "managedBusinesses": "管理业务",
+    "happyInvestors": "满意投资者",
+    "yearlyGrowth": "年度增长",
+    "trustedBy": "深受 15,000+ 创始人及业主信任",
+    "hospitality": "酒店业",
+    "realEstate": "房地产",
+    "retail": "零售业",
+    "investment": "投资",
+    "development": "开发",
+    "management": "管理"
+  },
+  "testimonials": {
+    "title": "投资者信赖",
+    "sarahText": "作为一名外国投资者，我曾担心在泰国创业的复杂性。Nest of Assets 让整个过程变得无缝，每一步都提供专家指导。",
+    "sarahAuthor": "Sarah Williams",
+    "sarahRole": "Wellness Ventures International 董事总经理",
+    "michaelText": "与 Nest of Assets 的合作改变了我们进入泰国业务的方式。他们在处理当地法规方面的专业知识非常宝贵。",
+    "michaelAuthor": "Michael Thompson",
+    "michaelRole": "Global Hospitality Group 首席执行官"
+  },
+  "finalCTA": {
+    "title": "准备好投资了吗？",
+    "description": "与我们合作，打造一个稳健且盈利的投资组合。",
+    "contactButton": "联系我们的团队"
+  },
+  "results": {
+    "headerTitle": "搜索结果",
+    "searching": "搜索中...",
+    "found": "找到 {count} 处房产",
+    "loadingList": "正在加载结果列表...",
+    "noPropertiesFound": "未找到房产",
+    "adjustFilters": "请尝试调整您的筛选条件",
+    "shareCompare": "共享与对比",
+    "forSale": "出售",
+    "forRent": "出租",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "close": "关闭",
+    "sqm": "平米"
+  },
+  "detail": {
+    "home": "首页",
+    "save": "保存",
+    "share": "分享",
+    "copied": "已复制",
+    "contact": "联系",
+    "sale": "出售",
+    "rent": "出租",
+    "photos": "照片",
+    "viewAllPhotos": "查看所有照片",
+    "mainImageAlt": "房产主图",
+    "galleryImageAlt": "房产相册图片 {index}",
+    "listingId": "列表 ID",
+    "updated": "更新时间",
+    "views": "浏览量",
+    "times": "次",
+    "description": "描述",
+    "noDescription": "该房产暂无描述。",
+    "details": "详情",
+    "specs": {
+      "listingId": "列表 ID",
+      "project": "项目",
+      "propertyType": "房产类型",
+      "floors": "楼层",
+      "bedrooms": "卧室",
+      "bathrooms": "浴室",
+      "livingArea": "居住面积",
+      "landArea": "土地面积",
+      "parking": "停车位",
+      "direction": "朝向",
+      "yearBuilt": "建造年份",
+      "tenure": "产权",
+      "decoration": "装修",
+      "commonFee": "物业费",
+      "unitFloors": "层",
+      "unitRooms": "间",
+      "unitCars": "辆",
+      "unitSqm": "平米",
+      "unitSqwa": "平方哇"
+    },
+    "amenities": {
+      "title": "设施",
+      "indoor": "室内设施",
+      "project": "公共设施",
+      "furniture": "家具",
+      "air_con": "空调",
+      "water_heater": "热水器",
+      "digital_lock": "智能门锁",
+      "bathtub": "浴缸",
+      "stove": "电/燃气灶",
+      "tv": "电视机",
+      "refrigerator": "冰箱",
+      "internet": "网络",
+      "smart_home": "智能家居",
+      "lift": "电梯",
+      "parking_facility": "停车场",
+      "pool": "游泳池",
+      "gym": "健身房",
+      "cctv": "监控系统",
+      "security": "24小时保安",
+      "garden": "花园/绿地",
+      "storage": "储藏室"
+    },
+    "location": {
+      "title": "位置",
+      "openInGoogleMaps": "在 Google 地图中打开"
+    },
+    "nearby": {
+      "title": "周边设施",
+      "transport": "交通",
+      "shop": "购物",
+      "edu": "教育",
+      "hosp": "医院",
+      "noNearby": "该房产周边未列出 {category} 设施。"
+    },
+    "sidebar": {
+      "salePrice": "售价",
+      "rentPrice": "月租金",
+      "approxPrice": "≈ ฿ {price} / 平米",
+      "priceSummary": "价格摘要",
+      "listingPrice": "列表价格",
+      "pricePerSqm": "每平米价格",
+      "pricePerSqwa": "每平方哇价格",
+      "scheduleTour": "预约看房",
+      "pickDateTime": "选择日期和时间",
+      "bookTour": "预约看房",
+      "reportListing": "举报此列表"
+    },
+    "form": {
+      "title": "发送消息",
+      "successTitle": "消息已发送！",
+      "successDesc": "代理商已收到通知，并将很快与您联系。",
+      "namePlaceholder": "您的姓名 *",
+      "phonePlaceholder": "电话号码 *",
+      "emailPlaceholder": "电子邮件地址 *",
+      "messagePlaceholder": "消息内容...",
+      "submitButton": "发送咨询",
+      "sendingButton": "发送中..."
+    },
+    "agentRoles": {
+      "agent": "房地产代理",
+      "senior_agent": "资深代理",
+      "broker": "经纪人",
+      "consultant": "房产顾问",
+      "sales_manager": "销售经理"
+    },
+    "verified": "已验证",
+    "message": "发送消息",
+    "contactLine": "通过 LINE 联系",
+    "sendEmail": "发送电子邮件"
+  },
+  "whyChooseUs": {
+    "title": "为什么选择我们",
+    "expertise": {
+      "title": "本地专业知识",
+      "desc": "深入了解泰国市场、法规和商业文化。"
+    },
+    "trackRecord": {
+      "title": "成功的业绩",
+      "desc": "在全泰国建立和发展业务方面取得的持续成功。"
+    },
+    "solutions": {
+      "title": "全面的解决方案",
+      "desc": "涵盖业务运营方方面面的端到端服务。"
+    },
+    "efficiency": {
+      "title": "时间效率",
+      "desc": "精简的流程让您的业务快速运转。"
+    },
+    "growth": {
+      "title": "专注于增长",
+      "desc": "旨在最大化您的业务潜力和投资回报率的战略方法。"
+    },
+    "risk": {
+      "title": "降低风险",
+      "desc": "深入的尽职调查和合规专业知识，保护您的投资。"
+    }
+  },
+  "sectors": {
+    "title": "我们覆盖的行业",
+    "description": "投资于多元化的行业，建立具有弹性和高性能的投资组合。",
+    "exploreAll": "探索所有行业",
+    "hospitality": "酒店服务",
+    "realEstate": "房地产",
+    "retail": "零售",
+    "finance": "金融",
+    "logistics": "物流",
+    "wellness": "大健康",
+    "tech": "科技",
+    "energy": "能源"
+  },
+  "opportunities": {
+    "title": "解锁高收益机会",
+    "description": "与 Nest of Assets 合作，获取独家私募股权交易并扩大您的财富组合。",
+    "viewAll": "查看机会",
+    "contact": "联系以获取权限",
+    "verified": "已验证房源",
+    "dueDiligence": "包含尽职调查"
+  },
+  "pricing": {
+    "title": "透明且灵活的定价",
+    "subtitle": "选择适合您业务增长的方案。",
+    "monthly": "按月付款",
+    "yearly": "按年付款 (节省 20%)",
+    "mostPopular": "最受欢迎",
+    "mo": "/月",
+    "custom": "定制",
+    "categories": {
+      "starter": "初学者",
+      "pro": "专业版",
+      "enterprise": "企业版"
+    },
+    "cta": {
+      "free": "免费开始",
+      "started": "立即开始",
+      "sales": "联系销售人员"
+    },
+    "features": {
+      "projects": "{count} 个项目",
+      "unlimitedProjects": "无限项目",
+      "basicAnalytics": "基础分析",
+      "advancedAnalytics": "高级分析",
+      "communitySupport": "社区支持",
+      "prioritySupport": "优先支持",
+      "storage": "{size} 存储空间",
+      "unlimitedStorage": "无限存储空间",
+      "customIntegration": "定制集成",
+      "dedicatedAccount": "专属客户经理",
+      "sla": "SLA 保证"
+    }
+  }
+}

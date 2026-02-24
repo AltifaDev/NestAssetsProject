@@ -1,0 +1,491 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portefeuille",
+    "contact": "Contact",
+    "signIn": "Se connecter",
+    "agentPortal": "Portail Agent"
+  },
+  "hero": {
+    "title": "Nest of Assets Co, Ltd",
+    "subtitle": "Private Equity : Gestion d'actifs & Développement commercial",
+    "getConsultation": "Réserver une consultation",
+    "viewPortfolio": "Voir le portefeuille",
+    "privateEquity": "Private Equity",
+    "assetManagement": "Gestion d'actifs",
+    "businessDevelopment": "Développement commercial"
+  },
+  "search": {
+    "properties": "Propriétés",
+    "condos": "Condos",
+    "houses": "Maisons & Villas",
+    "land": "Terrains",
+    "commercial": "Commercial",
+    "investment": "Investissement",
+    "forSale": "À vendre",
+    "forRent": "À louer",
+    "country": "Thaïlande",
+    "cityPlaceholder": "Ville ou projet...",
+    "priceRange": "Gamme de prix",
+    "anyPrice": "Tous les prix",
+    "bedrooms": "Chambres",
+    "anyBedrooms": "Toutes",
+    "search": "Chercher",
+    "advancedFilters": "Filtres avancés",
+    "minPrice": "Prix min",
+    "maxPrice": "Prix max",
+    "noLimit": "Illimité",
+    "under5m": "Moins de 5M",
+    "5m10m": "5M - 10M",
+    "10m20m": "10M - 20M",
+    "20mPlus": "Plus de 20M",
+    "studio": "Studio",
+    "1bed": "1 chambre",
+    "2beds": "2 chambres",
+    "3beds": "3 chambres",
+    "4bedsPlus": "4+ chambres",
+    "physicalSpecs": "Spécifications physiques",
+    "listingType": "Type d'annonce",
+    "newProjects": "Nouveaux projets",
+    "resale": "Revente",
+    "bathrooms": "Salles de bain",
+    "any": "Tous",
+    "livingArea": "Surface habitable (m²)",
+    "min": "Min",
+    "max": "Max",
+    "amenitiesLifestyle": "Équipements & Style de vie",
+    "viewHighlights": "Voir les points forts",
+    "seaView": "🌊 Vue mer",
+    "cityView": "🏙️ Vue ville",
+    "gardenView": "🌳 Vue jardin",
+    "resetAll": "Tout réinitialiser",
+    "applyFilters": "Appliquer les filtres",
+    "worldRegions": "Régions du monde",
+    "allRegions": "Toutes les régions",
+    "asia": "Asie",
+    "europe": "Europe",
+    "americas": "Amériques",
+    "middleEast": "Moyen-Orient",
+    "africa": "Afrique",
+    "searchDestination": "Rechercher une destination..."
+  },
+  "auth": {
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Connectez-vous pour explorer les propriétés et sauvegarder vos favoris",
+      "submit": "Se connecter",
+      "togglePrompt": "Nouveau sur Nest of Assets ?",
+      "toggleAction": "Créer un compte"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "subtitle": "Reignez-nous pour découvrir votre propriété idéale",
+      "submit": "Créer un compte",
+      "togglePrompt": "Vous avez déjà un compte ?",
+      "toggleAction": "Se connecter maintenant"
+    },
+    "fields": {
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "fullName": "Nom complet",
+      "phone": "Numéro de téléphone",
+      "forgot": "Mot de passe oublié ?"
+    },
+    "placeholders": {
+      "email": "nom@exemple.com",
+      "fullName": "Jean Dupont",
+      "phone": "+66 XX XXX XXXX"
+    },
+    "social": {
+      "continueWith": "ou continuer avec l'e-mail",
+      "google": "Google",
+      "facebook": "Facebook"
+    },
+    "agentPortal": "Accès Portail Agent",
+    "messages": {
+      "alreadyRegistered": "Cet e-mail est déjà enregistré. Veuillez vous connecter.",
+      "confirmationSent": "Nous avons envoyé un lien de confirmation à votre e-mail. Veuillez vérifier pour continuer."
+    }
+  },
+  "agentLogin": {
+    "title": "AGENT",
+    "highlight": "ACCÈS",
+    "subtitle": "Veuillez vous connecter pour gérer vos annonces",
+    "placeholders": {
+      "email": "E-mail Agent",
+      "password": "Mot de passe"
+    },
+    "submit": "CONNEXION DASHBOARD",
+    "errors": {
+      "accessDenied": "Accès refusé. Ce portail est réservé aux agents.",
+      "loginFailed": "Échec de la connexion. Veuillez vérifier vos identifiants."
+    }
+  },
+  "features": {
+    "title": "Solutions commerciales complètes",
+    "description": "Nous offrons des solutions commerciales complètes adaptées à vos besoins spécifiques, en tirant parti de notre expertise et de notre connaissance locale pour assurer votre succès en Thaïlande.",
+    "equity": "Private Equity & Investissements",
+    "hospitality": "Hôtellerie & Création de bars",
+    "massage": "Opérations de salons de massage",
+    "realEstate": "Immobilier & Acquisitions",
+    "getStarted": "Commencer maintenant",
+    "salesOvertime": "Évolution des ventes",
+    "monthlySales": "Ventes mensuelles",
+    "totalProduct": "Total produits",
+    "revenue": "Revenus",
+    "salesCount": "{count} Ventes",
+    "days": {
+      "jan1": "1 janv",
+      "jan2": "2 janv",
+      "jan3": "3 janv",
+      "jan4": "4 janv",
+      "jan5": "5 janv",
+      "jan6": "6 janv",
+      "jan7": "7 janv"
+    }
+  },
+  "roi": {
+    "title": "Maximiser le ROI pour les investisseurs",
+    "description": "Nous nous concentrons sur une croissance durable et la création de valeur à long terme par une gestion rigoureuse et des améliorations stratégiques.",
+    "stableCashflow": "Flux de trésorerie stable",
+    "assetAppreciation": "Appréciation des actifs",
+    "operationalEfficiency": "Efficacité opérationnelle",
+    "strategicExits": "Sorties stratégiques",
+    "netProfit": "Bénéfice net"
+  },
+  "portfolio": {
+    "title": "Portefeuille d'investissement diversifié",
+    "description": "Un mélange équilibré d'actifs à haut rendement dans plusieurs secteurs, assurant stabilité et croissance à long terme pour nos partenaires.",
+    "hospitality": "Hôtellerie & Tourisme",
+    "commercial": "Immobilier commercial",
+    "retail": "Opérations de détail",
+    "digital": "Entreprises numériques",
+    "portfolioGrowth": "Croissance du portefeuille",
+    "revenueGrowth": "Croissance des revenus"
+  },
+  "propHub": {
+    "titleLeft": "De notre maison...",
+    "titleLeftSub": "à la vôtre",
+    "descLeft": "Conseils d'experts pour chaque étape de votre parcours immobilier.",
+    "guideBadge": "Guide Immobilier",
+    "guideTitle": "Conseils d'experts pour Acheter, Vendre, Louer & Investir",
+    "explore": "Explorer",
+    "agentBadge": "Agent Immobilier",
+    "agentTitle": "Des agents professionnels pour vous aider à trouver un chez-vous",
+    "findAgent": "Trouver un agent",
+    "titleRight": "Commencez votre",
+    "homeJourney": "Parcours domicile",
+    "descRight": "Découvrez les nouvelles collections les plus attendues dans tout le pays.",
+    "featuredBadge": "Collection vedette 2026",
+    "dreamHomeTitle": "Découvrez votre maison de rêve dans des emplacements de choix",
+    "viewNewProjects": "Voir les nouveaux projets",
+    "newmarketPreview": "APERÇU NEWMARKET"
+  },
+  "latestProjects": {
+    "title": "Derniers <span class='text-gradient'>Lancements de Projets</span>",
+    "description": "Explorez notre sélection de développements immobiliers premium dans des lieux à fort potentiel à travers le royaume.",
+    "viewAll": "Voir toutes les propriétés",
+    "newProject": "Nouveau projet",
+    "startingPriceLabel": "À partir de",
+    "visitPortal": "Visiter le portail complet",
+    "priceValue": "{value}M THB",
+    "types": {
+      "singleHouse": "Maison individuelle",
+      "condo": "Condominium",
+      "luxuryCondo": "Condo de luxe",
+      "semiDetached": "Maison jumelée"
+    }
+  },
+  "popularLocations": {
+    "title": "Lieux populaires en <span class='text-gradient'>Thaïlande</span>",
+    "searchByProvince": "Rechercher par province",
+    "listingsTitle": "Annonces Vente & Location",
+    "listingsDesc": "Que vous cherchiez une maison ou un investissement, nous proposons une large gamme d'annonces de maisons, condos et terrains.",
+    "condoTitle": "Projets de condominiums",
+    "condoDesc": "Découvrez des projets de condos neufs et de revente. Informations détaillées, photos de haute qualité et emplacements de choix.",
+    "reviewsTitle": "Avis sur les nouveaux projets",
+    "reviewsDesc": "Analyses approfondies sur les nouveaux condos et maisons. Nous vous guidons à chaque détail pour vous aider à décider.",
+    "tipsTitle": "Conseils immobiliers d'experts",
+    "tipsDesc": "Votre ressource principale pour l'achat, la vente et la location, incluant prêts, taux et taxes.",
+    "cities": {
+      "bangkok": "Bangkok",
+      "nonthaburi": "Nonthaburi",
+      "pathumThani": "Pathum Thani",
+      "chiangMai": "Chiang Mai",
+      "chiangRai": "Chiang Rai",
+      "chonburi": "Chonburi",
+      "huaHin": "Hua Hin",
+      "phuket": "Phuket",
+      "rayong": "Rayong",
+      "suratThani": "Surat Thani",
+      "nakhonRatchasima": "Nakhon Ratchasima",
+      "khonKaen": "Khon Kaen",
+      "pattaya": "Pattaya",
+      "kohSamui": "Koh Samui",
+      "pakChong": "Pak Chong",
+      "phangNga": "Phang Nga"
+    }
+  },
+  "footer": {
+    "experience": "Découvrez notre plateforme partout",
+    "getItOn": "Disponible sur",
+    "downloadOn": "Télécharger sur l'",
+    "connect": "Connectez-vous avec nous",
+    "missionText": "Le premier centre d'intelligence immobilière de Thaïlande. Nous fournissons des données d'experts et une plateforme complète pour les acheteurs, les locataires et les investisseurs institutionnels.",
+    "aboutMission": "À propos de notre mission",
+    "saleTitle": "Acheter une propriété",
+    "rentTitle": "Louer une propriété",
+    "newTitle": "Nouveaux projets",
+    "links": {
+      "luxuryCondos": "Condos de luxe",
+      "residentialHouses": "Maisons résidentielles",
+      "townhomes": "Maisons de ville",
+      "investmentLand": "Terrains d'investissement",
+      "monthlyRentals": "Locations mensuelles",
+      "servicedApartments": "Appartements avec services",
+      "commercialSpace": "Espace commercial",
+      "vacationHomes": "Maisons de vacances",
+      "offPlanProjects": "Projets sur plan",
+      "projectReviews": "Avis sur les projets",
+      "investmentInsights": "Perspectives d'investissement"
+    },
+    "agentPortal": "Accès Portail Agent",
+    "copyright": "NEST OF ASSETS CO, LTD. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "cookies": "Gestion des cookies"
+  },
+  "stats": {
+    "totalAssets": "Total des actifs",
+    "managedBusinesses": "Entreprises gérées",
+    "happyInvestors": "Investisseurs satisfaits",
+    "yearlyGrowth": "Croissance annuelle",
+    "trustedBy": "Plus de 15 000 fondateurs nous font confiance",
+    "hospitality": "Hôtellerie",
+    "realEstate": "Immobilier",
+    "retail": "Détail",
+    "investment": "Investissement",
+    "development": "Développement",
+    "management": "Gestion"
+  },
+  "testimonials": {
+    "title": "Approuvé par les investisseurs",
+    "sarahText": "En tant qu'investisseur étranger, j'étais inquiète des complexités. Nest of Assets a rendu le processus fluide avec des conseils experts à chaque étape.",
+    "sarahAuthor": "Sarah Williams",
+    "sarahRole": "Directrice Générale, Wellness Ventures International",
+    "michaelText": "Travailler avec Nest of Assets a transformé notre entrée sur le marché thaïlandais. Leur expertise était inestimable.",
+    "michaelAuthor": "Michael Thompson",
+    "michaelRole": "CEO, Global Hospitality Group"
+  },
+  "finalCTA": {
+    "title": "Prêt à investir ?",
+    "description": "Associez-vous à nous pour bâtir un portefeuille solide et rentable.",
+    "contactButton": "Contacter notre équipe"
+  },
+  "results": {
+    "headerTitle": "Résultats de recherche",
+    "searching": "Recherche...",
+    "found": "{count} propriétés trouvées",
+    "loadingList": "Chargement de la liste...",
+    "noPropertiesFound": "Aucune propriété trouvée",
+    "adjustFilters": "Essayez d'ajuster vos filtres",
+    "shareCompare": "Partager & Comparer",
+    "forSale": "À vendre",
+    "forRent": "À louer",
+    "minimize": "Réduire",
+    "maximize": "Agrandir",
+    "close": "Fermer",
+    "sqm": "m²"
+  },
+  "detail": {
+    "home": "Accueil",
+    "save": "Enregistrer",
+    "share": "Partager",
+    "copied": "Copié",
+    "contact": "Contact",
+    "sale": "Vente",
+    "rent": "Location",
+    "photos": "Photos",
+    "viewAllPhotos": "Voir toutes les photos",
+    "mainImageAlt": "Image principale de la propriété",
+    "galleryImageAlt": "Image de la galerie {index}",
+    "listingId": "ID de l'annonce",
+    "updated": "Mis à jour",
+    "views": "Vues",
+    "times": "fois",
+    "description": "Description",
+    "noDescription": "Aucune description disponible.",
+    "details": "Détails",
+    "specs": {
+      "listingId": "ID de l'annonce",
+      "project": "Projet",
+      "propertyType": "Type de bien",
+      "floors": "Étages",
+      "bedrooms": "Chambres",
+      "bathrooms": "Salles de bain",
+      "livingArea": "Surface habitable",
+      "landArea": "Surface terrain",
+      "parking": "Parking",
+      "direction": "Orientation",
+      "yearBuilt": "Année de construction",
+      "tenure": "Régime de propriété",
+      "decoration": "Décoration",
+      "commonFee": "Charges communes",
+      "unitFloors": "étages",
+      "unitRooms": "pièces",
+      "unitCars": "voitures",
+      "unitSqm": "m²",
+      "unitSqwa": "sq.wa"
+    },
+    "amenities": {
+      "title": "Équipements",
+      "indoor": "Intérieur",
+      "project": "Projet",
+      "furniture": "Meubles",
+      "air_con": "Climatisation",
+      "water_heater": "Chauffe-eau",
+      "digital_lock": "Serrure numérique",
+      "bathtub": "Baignoire",
+      "stove": "Plaque électrique/gaz",
+      "tv": "Télévision",
+      "refrigerator": "Réfrigérateur",
+      "internet": "Internet",
+      "smart_home": "Maison connectée",
+      "lift": "Ascenseur",
+      "parking_facility": "Parking",
+      "pool": "Piscine",
+      "gym": "Salle de sport",
+      "cctv": "Vidéosurveillance",
+      "security": "Sécurité 24h",
+      "garden": "Jardin / Espace vert",
+      "storage": "Débarras"
+    },
+    "location": {
+      "title": "Emplacement",
+      "openInGoogleMaps": "Ouvrir dans Google Maps"
+    },
+    "nearby": {
+      "title": "À proximité",
+      "transport": "Transport",
+      "shop": "Shopping",
+      "edu": "Éducation",
+      "hosp": "Hôpital",
+      "noNearby": "Aucun lieu de catégorie {category} n'est listé."
+    },
+    "sidebar": {
+      "salePrice": "Prix de vente",
+      "rentPrice": "Loyer / mois",
+      "approxPrice": "≈ ฿ {price} / m²",
+      "priceSummary": "Résumé du prix",
+      "listingPrice": "Prix affiché",
+      "pricePerSqm": "Prix au m²",
+      "pricePerSqwa": "Prix au sq.wa",
+      "scheduleTour": "Planifier une visite",
+      "pickDateTime": "Choisir date & heure",
+      "bookTour": "Réserver une visite",
+      "reportListing": "Signaler l'annonce"
+    },
+    "form": {
+      "title": "Envoyer un message",
+      "successTitle": "Message envoyé !",
+      "successDesc": "L'agent a été notifié et vous contactera sous peu.",
+      "namePlaceholder": "Votre nom *",
+      "phonePlaceholder": "Téléphone *",
+      "emailPlaceholder": "E-mail *",
+      "messagePlaceholder": "Message...",
+      "submitButton": "Envoyer la demande",
+      "sendingButton": "Envoi..."
+    },
+    "agentRoles": {
+      "agent": "Agent Immobilier",
+      "senior_agent": "Agent Senior",
+      "broker": "Courtier",
+      "consultant": "Consultant",
+      "sales_manager": "Responsable Ventes"
+    },
+    "verified": "Vérifié",
+    "message": "Message",
+    "contactLine": "Contact via LINE",
+    "sendEmail": "Envoyer un e-mail"
+  },
+  "whyChooseUs": {
+    "title": "Pourquoi nous choisir",
+    "expertise": {
+      "title": "Expertise locale",
+      "desc": "Compréhension profonde des marchés, régulations et culture thaïlandaise."
+    },
+    "trackRecord": {
+      "title": "Expérience prouvée",
+      "desc": "Succès constant dans l'établissement d'entreprises en Thaïlande."
+    },
+    "solutions": {
+      "title": "Solutions complètes",
+      "desc": "Services de bout en bout couvrant tous les aspects."
+    },
+    "efficiency": {
+      "title": "Efficacité temporelle",
+      "desc": "Processus rationalisés pour démarrer rapidement."
+    },
+    "growth": {
+      "title": "Axé sur la croissance",
+      "desc": "Approches stratégiques pour maximiser le potentiel et le ROI."
+    },
+    "risk": {
+      "title": "Atténuation des risques",
+      "desc": "Audit approfondi et expertise en conformité."
+    }
+  },
+  "sectors": {
+    "title": "Secteurs que nous couvrons",
+    "description": "Investir dans diverses industries pour bâtir un portefeuille performant.",
+    "exploreAll": "Explorer tous les secteurs",
+    "hospitality": "Hôtellerie",
+    "realEstate": "Immobilier",
+    "retail": "Commerce",
+    "finance": "Finance",
+    "logistics": "Logistique",
+    "wellness": "Bien-être",
+    "tech": "Tech",
+    "energy": "Énergie"
+  },
+  "opportunities": {
+    "title": "Accéder à des opportunités à haut rendement",
+    "description": "Associez-vous à Nest of Assets pour des deals exclusifs.",
+    "viewAll": "Voir les opportunités",
+    "contact": "Contact pour accès",
+    "verified": "Annonces vérifiées",
+    "dueDiligence": "Audit inclus"
+  },
+  "pricing": {
+    "title": "Tarification transparente",
+    "subtitle": "Choisissez le forfait adapté à votre croissance.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel (Économisez 20%)",
+    "mostPopular": "Le plus populaire",
+    "mo": "/mois",
+    "custom": "Sur mesure",
+    "categories": {
+      "starter": "Starter",
+      "pro": "Pro",
+      "enterprise": "Entreprise"
+    },
+    "cta": {
+      "free": "Démarrer gratuitement",
+      "started": "Commencer maintenant",
+      "sales": "Contacter les ventes"
+    },
+    "features": {
+      "projects": "{count} Projets",
+      "unlimitedProjects": "Projets illimités",
+      "basicAnalytics": "Analyses de base",
+      "advancedAnalytics": "Analyses avancées",
+      "communitySupport": "Support communautaire",
+      "prioritySupport": "Support prioritaire",
+      "storage": "{size} Stockage",
+      "unlimitedStorage": "Stockage illimité",
+      "customIntegration": "Intégration personnalisée",
+      "dedicatedAccount": "Compte dédié",
+      "sla": "Garantie SLA"
+    }
+  }
+}

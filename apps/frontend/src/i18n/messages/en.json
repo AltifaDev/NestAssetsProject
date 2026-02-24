@@ -1,0 +1,503 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "agentPortal": "Agent Portal"
+  },
+  "hero": {
+    "title": "Nest of Assets Co, Ltd",
+    "subtitle": "Private Equity: Asset Management & Business Development",
+    "getConsultation": "Get Consultation",
+    "viewPortfolio": "View Portfolio",
+    "privateEquity": "Private Equity",
+    "assetManagement": "Asset Management",
+    "businessDevelopment": "Business Development"
+  },
+  "search": {
+    "properties": "Managed Assets",
+    "condos": "Hospitality",
+    "houses": "Wellness & Spa",
+    "land": "Retail",
+    "commercial": "Office & Commercial",
+    "investment": "Private Equity",
+    "forSale": "Acquisitions",
+    "forRent": "Joint Ventures",
+    "country": "Thailand",
+    "cityPlaceholder": "City or Project...",
+    "priceRange": "Price Range",
+    "anyPrice": "Any price",
+    "bedrooms": "Bedrooms",
+    "anyBedrooms": "Any bedrooms",
+    "search": "Search",
+    "advancedFilters": "Advanced Filters",
+    "minPrice": "Min Price",
+    "maxPrice": "Max Price",
+    "noLimit": "No Limit",
+    "under5m": "Under 5M",
+    "5m10m": "5M - 10M",
+    "10m20m": "10M - 20M",
+    "20mPlus": "20M+",
+    "studio": "Studio",
+    "1bed": "1 Bedroom",
+    "2beds": "2 Bedrooms",
+    "3beds": "3 Bedrooms",
+    "4bedsPlus": "4+ Bedrooms",
+    "physicalSpecs": "Physical Specifications",
+    "listingType": "Listing Type",
+    "newProjects": "New Projects",
+    "resale": "Resale",
+    "bathrooms": "Bathrooms",
+    "any": "Any",
+    "livingArea": "Living Area (sqm)",
+    "min": "Min",
+    "max": "Max",
+    "amenitiesLifestyle": "Amenities & Lifestyle",
+    "viewHighlights": "View Highlights",
+    "seaView": "🌊 Sea View",
+    "cityView": "🏙️ City View",
+    "gardenView": "🌳 Garden View",
+    "resetAll": "Reset All",
+    "applyFilters": "Apply Filters",
+    "worldRegions": "World Regions",
+    "allRegions": "All Regions",
+    "asia": "Asia",
+    "europe": "Europe",
+    "americas": "Americas",
+    "middleEast": "Middle East",
+    "africa": "Africa",
+    "searchDestination": "Search for your destination..."
+  },
+  "auth": {
+    "backToHome": "Back to Home",
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to access specialized property data and saved portfolios.",
+      "submit": "Sign In",
+      "togglePrompt": "New to our network?",
+      "toggleAction": "Apply for access"
+    },
+    "register": {
+      "title": "Join the Network",
+      "subtitle": "Create an account to unlock premium insights and portfolio tools.",
+      "submit": "Create Account",
+      "togglePrompt": "Already have an account?",
+      "toggleAction": "Authorize access"
+    },
+    "fields": {
+      "email": "Registered Email",
+      "password": "Secure Password",
+      "fullName": "Name of Entity/Individual",
+      "phone": "Contact Number",
+      "forgot": "Reset?"
+    },
+    "placeholders": {
+      "email": "name@nestassets.com",
+      "fullName": "Enter full name",
+      "phone": "+66 XX XXX XXXX"
+    },
+    "social": {
+      "continueWith": "Secure authentication",
+      "google": "Google",
+      "facebook": "Facebook"
+    },
+    "agentPortal": "Authorized Personnel Only",
+    "messages": {
+      "alreadyRegistered": "Identity already verified. Please proceed to sign in.",
+      "confirmationSent": "Security verification link dispatched. Please check your inbox."
+    }
+  },
+  "agentLogin": {
+    "title": "AGENT",
+    "highlight": "ACCESS",
+    "subtitle": "Please sign in to manage your listings",
+    "fields": {
+      "email": "Agent Identity",
+      "password": "Security Key"
+    },
+    "placeholders": {
+      "email": "Registered email address",
+      "password": "••••••••"
+    },
+    "submit": "LOGIN TO DASHBOARD",
+    "errors": {
+      "accessDenied": "Access denied. This portal is for agents only.",
+      "loginFailed": "Login failed. Please check your credentials."
+    }
+  },
+  "features": {
+    "title": "Comprehensive Business Solutions",
+    "description": "We offer comprehensive business solutions tailored to your specific needs, leveraging our expertise and local knowledge to ensure your success in Thailand.",
+    "equity": "Private Equity & Investments",
+    "hospitality": "Hospitality & Bar Setup",
+    "massage": "Massage Business Operations",
+    "realEstate": "Real Estate & Acquisitions",
+    "getStarted": "Get Started Now",
+    "salesOvertime": "Sales Overtime",
+    "monthlySales": "Monthly Sales",
+    "totalProduct": "Total product",
+    "revenue": "Revenue",
+    "salesCount": "{count} Sales",
+    "days": {
+      "jan1": "Jan 1",
+      "jan2": "Jan 2",
+      "jan3": "Jan 3",
+      "jan4": "Jan 4",
+      "jan5": "Jan 5",
+      "jan6": "Jan 6",
+      "jan7": "Jan 7"
+    }
+  },
+  "roi": {
+    "title": "Maximizing ROI for Investors",
+    "description": "We focus on sustainable growth and long-term value creation through rigorous management and strategic improvements.",
+    "stableCashflow": "Stable Cashflow",
+    "assetAppreciation": "Asset Appreciation",
+    "operationalEfficiency": "Operational Efficiency",
+    "strategicExits": "Strategic Exits",
+    "netProfit": "Net Profit"
+  },
+  "portfolio": {
+    "title": "Diverse Investment Portfolio",
+    "description": "A balanced mix of high-yield assets across multiple industries, ensuring stability and long-term growth for our partners.",
+    "hospitality": "Hospitality & Tourism",
+    "commercial": "Commercial Real Estate",
+    "retail": "Retail Operations",
+    "digital": "Digital Ventures",
+    "portfolioGrowth": "Portfolio Growth",
+    "revenueGrowth": "Revenue Growth"
+  },
+  "propHub": {
+    "titleLeft": "Strategic Asset",
+    "titleLeftSub": "Management",
+    "descLeft": "Expert guidance for every step of your business investment journey in Thailand.",
+    "guideBadge": "Investment Guide",
+    "guideTitle": "Expert Tips for Business Acquisition & Growth",
+    "explore": "Explore Insights",
+    "agentBadge": "Business Consultant",
+    "agentTitle": "Professional Consultants to Help You Scale",
+    "findAgent": "Find Consultant",
+    "titleRight": "Begin Your",
+    "homeJourney": "Investment Journey",
+    "descRight": "Discover the most anticipated business opportunities across the kingdom.",
+    "featuredBadge": "Managed Asset 2026",
+    "dreamHomeTitle": "Unlock Professional Management in Prime Locations",
+    "viewNewProjects": "View Managed Assets",
+    "newmarketPreview": "PRIVATE EQUITY"
+  },
+  "latestProjects": {
+    "title": "Latest <span class='text-gradient'>Business Acquisitions</span>",
+    "description": "Explore our curated selection of managed businesses and high-potential investment opportunities in Thailand.",
+    "viewAll": "View All Assets",
+    "newProject": "New Asset",
+    "startingPriceLabel": "Valuation starting at",
+    "visitPortal": "Visit Full Portal",
+    "priceValue": "{value}M THB",
+    "types": {
+      "hospitality": "Hospitality",
+      "wellness": "Wellness & Spa",
+      "commercial": "Commercial",
+      "retail": "Retail Operations"
+    }
+  },
+  "popularLocations": {
+    "title": "Popular <span class='text-gradient'>Locations in Thailand</span>",
+    "searchByProvince": "Search by Province",
+    "listingsTitle": "Business Acquisitions",
+    "listingsDesc": "Whether you're looking for an established business or a strategic entry point, we feature a wide range of hospitality, retail, and commercial assets.",
+    "condoTitle": "Managed Assets",
+    "condoDesc": "Discover businesses under our management. Detailed operational data, high-quality performance metrics, and prime locations.",
+    "reviewsTitle": "Strategic Insights",
+    "reviewsDesc": "In-depth analysis of market trends and business opportunities. We walk you through every detail to help you make informed investment decisions.",
+    "tipsTitle": "Expert Investment Tips",
+    "tipsDesc": "Your primary resource for business setup, regulatory compliance, and growth strategies in the Thai market.",
+    "cities": {
+      "bangkok": "Bangkok",
+      "nonthaburi": "Nonthaburi",
+      "pathumThani": "Pathum Thani",
+      "chiangMai": "Chiang Mai",
+      "chiangRai": "Chiang Rai",
+      "chonburi": "Chonburi",
+      "huaHin": "Hua Hin",
+      "phuket": "Phuket",
+      "rayong": "Rayong",
+      "suratThani": "Surat Thani",
+      "nakhonRatchasima": "Nakhon Ratchasima",
+      "khonKaen": "Khon Kaen",
+      "pattaya": "Pattaya",
+      "kohSamui": "Koh Samui",
+      "pakChong": "Pak Chong",
+      "phangNga": "Phang Nga"
+    }
+  },
+  "footer": {
+    "experience": "Experience our platform anywhere",
+    "getItOn": "Get it on",
+    "downloadOn": "Download on the",
+    "connect": "Connect with us",
+    "missionText": "Nest of Assets Co, Ltd is a premier private equity firm specializing in asset management and business development across Thailand's high-growth sectors.",
+    "aboutMission": "Our Strategic Model",
+    "saleTitle": "Acquisitions",
+    "rentTitle": "Operations",
+    "newTitle": "Insights",
+    "links": {
+      "luxuryCondos": "Hospitality Assets",
+      "residentialHouses": "Retail Operations",
+      "townhomes": "Wellness Centers",
+      "investmentLand": "Commercial Real Estate",
+      "monthlyRentals": "Managed Businesses",
+      "servicedApartments": "Operational Support",
+      "commercialSpace": "Leasing Solutions",
+      "vacationHomes": "Revenue Management",
+      "offPlanProjects": "Market Entry",
+      "projectReviews": "Performance Reports",
+      "investmentInsights": "Private Equity Guide"
+    },
+    "agentPortal": "Agent Portal Access",
+    "copyright": "NEST OF ASSETS CO, LTD. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Control"
+  },
+  "stats": {
+    "totalAssets": "Total Assets",
+    "managedBusinesses": "Managed Businesses",
+    "happyInvestors": "Happy Investors",
+    "yearlyGrowth": "Yearly Growth",
+    "trustedBy": "Trusted by 15,000+ founders & business owners",
+    "hospitality": "Hospitality",
+    "realEstate": "Real Estate",
+    "retail": "Retail",
+    "investment": "Investment",
+    "development": "Development",
+    "management": "Management"
+  },
+  "testimonials": {
+    "title": "Trusted by Investors",
+    "sarahText": "As a foreign investor, I was concerned about the complexities of setting up a business in Thailand. Nest of Assets made the process seamless, providing expert guidance every step of the way.",
+    "sarahAuthor": "Sarah Williams",
+    "sarahRole": "Managing Director, Wellness Ventures International",
+    "michaelText": "Working with Nest of Assets transformed our business entry into Thailand. Their expertise in navigating local regulations was invaluable.",
+    "michaelAuthor": "Michael Thompson",
+    "michaelRole": "CEO, Global Hospitality Group"
+  },
+  "finalCTA": {
+    "title": "Ready to Invest?",
+    "description": "Partner with us to build a robust and profitable portfolio.",
+    "contactButton": "Contact Our Team"
+  },
+  "results": {
+    "headerTitle": "Search Results",
+    "searching": "Searching...",
+    "found": "{count} properties found",
+    "loadingList": "Loading result list...",
+    "noPropertiesFound": "No Properties Found",
+    "adjustFilters": "Try adjusting your filters",
+    "shareCompare": "Share & Compare",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "minimize": "Minimize",
+    "maximize": "Maximize",
+    "close": "Close",
+    "sqm": "sqm"
+  },
+  "detail": {
+    "home": "Home",
+    "save": "Save",
+    "share": "Share",
+    "copied": "Copied",
+    "contact": "Contact",
+    "sale": "Sale",
+    "rent": "Rent",
+    "photos": "Photos",
+    "viewAllPhotos": "View All Photos",
+    "mainImageAlt": "Main property image",
+    "galleryImageAlt": "Property gallery image {index}",
+    "listingId": "Listing ID",
+    "updated": "Updated",
+    "views": "Views",
+    "times": "times",
+    "description": "Description",
+    "noDescription": "No description available for this property.",
+    "details": "Details",
+    "specs": {
+      "listingId": "Listing ID",
+      "project": "Project",
+      "propertyType": "Property Type",
+      "floors": "Floors",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "livingArea": "Living Area",
+      "landArea": "Land Area",
+      "parking": "Parking",
+      "direction": "Facing Direction",
+      "yearBuilt": "Year Built",
+      "tenure": "Tenure",
+      "decoration": "Decoration",
+      "commonFee": "Common Fee",
+      "unitFloors": "Floors",
+      "unitRooms": "Rooms",
+      "unitCars": "Cars",
+      "unitSqm": "sq.m.",
+      "unitSqwa": "sq.wa"
+    },
+    "amenities": {
+      "title": "Amenities",
+      "indoor": "Indoor",
+      "project": "Project",
+      "furniture": "Furniture",
+      "air_con": "Air Conditioning",
+      "water_heater": "Water Heater",
+      "digital_lock": "Digital Lock",
+      "bathtub": "Bathtub",
+      "stove": "Electric/Gas Stove",
+      "tv": "Television",
+      "refrigerator": "Refrigerator",
+      "internet": "Internet",
+      "smart_home": "Smart Home",
+      "lift": "Elevator",
+      "parking_facility": "Parking",
+      "pool": "Swimming Pool",
+      "gym": "Gym",
+      "cctv": "CCTV",
+      "security": "24h Security",
+      "garden": "Garden/Green Area",
+      "storage": "Storage Room"
+    },
+    "location": {
+      "title": "Location",
+      "openInGoogleMaps": "Open in Google Maps"
+    },
+    "nearby": {
+      "title": "Nearby Places",
+      "transport": "Transport",
+      "shop": "Shopping",
+      "edu": "Education",
+      "hosp": "Hospital",
+      "noNearby": "No {category} places listed for this property."
+    },
+    "sidebar": {
+      "salePrice": "Sale Price",
+      "rentPrice": "Rent / Month",
+      "approxPrice": "≈ ฿ {price} / sq.m.",
+      "priceSummary": "Price Summary",
+      "listingPrice": "Listing Price",
+      "pricePerSqm": "Price per sq.m.",
+      "pricePerSqwa": "Price per sq.wa",
+      "scheduleTour": "Schedule a Tour",
+      "pickDateTime": "Pick a date and time",
+      "bookTour": "Book a Tour",
+      "reportListing": "Report Listing"
+    },
+    "form": {
+      "title": "Send a Message",
+      "successTitle": "Message Sent!",
+      "successDesc": "The agent has been notified and will contact you shortly.",
+      "namePlaceholder": "Your Name *",
+      "phonePlaceholder": "Phone Number *",
+      "emailPlaceholder": "Email Address *",
+      "messagePlaceholder": "Message...",
+      "submitButton": "Send Inquiry",
+      "sendingButton": "Sending..."
+    },
+    "agentRoles": {
+      "agent": "Real Estate Agent",
+      "senior_agent": "Senior Agent",
+      "broker": "Broker",
+      "consultant": "Property Consultant",
+      "sales_manager": "Sales Manager"
+    },
+    "verified": "Verified",
+    "message": "Message",
+    "contactLine": "Contact via LINE",
+    "sendEmail": "Send Email"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "expertise": {
+      "title": "Local Expertise",
+      "desc": "Deep understanding of Thai markets, regulations, and business culture."
+    },
+    "trackRecord": {
+      "title": "Proven Track Record",
+      "desc": "Consistent success in establishing and growing businesses across Thailand."
+    },
+    "solutions": {
+      "title": "Comprehensive Solutions",
+      "desc": "End-to-end services covering every aspect of business operations."
+    },
+    "efficiency": {
+      "title": "Time Efficiency",
+      "desc": "Streamlined processes to get your business operating quickly."
+    },
+    "growth": {
+      "title": "Growth Focused",
+      "desc": "Strategic approaches to maximize your business potential and ROI."
+    },
+    "risk": {
+      "title": "Risk Mitigation",
+      "desc": "Thorough due diligence and compliance expertise to protect your investments."
+    }
+  },
+  "sectors": {
+    "title": "Sectors We Cover",
+    "description": "Investing in diverse industries to build a resilient and high-performing portfolio.",
+    "exploreAll": "Explore All Sectors",
+    "hospitality": "Hospitality",
+    "realEstate": "Real Estate",
+    "retail": "Retail",
+    "finance": "Finance",
+    "logistics": "Logistics",
+    "wellness": "Wellness",
+    "tech": "Tech",
+    "energy": "Energy"
+  },
+  "opportunities": {
+    "title": "Unlock High-Yield Opportunities",
+    "description": "Partner with Nest of Assets to access exclusive private equity deals and scale your wealth portfolio.",
+    "viewAll": "View Opportunities",
+    "contact": "Contact for Access",
+    "verified": "Verified Listings",
+    "dueDiligence": "Due Diligence Included"
+  },
+  "pricing": {
+    "title": "Transparent & Flexible Pricing",
+    "subtitle": "Choose the plan that's right for your business growth.",
+    "monthly": "Monthly",
+    "yearly": "Yearly (Save 20%)",
+    "mostPopular": "Most Popular",
+    "mo": "/mo",
+    "custom": "Custom",
+    "categories": {
+      "starter": "Starter",
+      "pro": "Pro",
+      "enterprise": "Enterprise"
+    },
+    "cta": {
+      "free": "Start for Free",
+      "started": "Get Started Now",
+      "sales": "Contact Sales"
+    },
+    "features": {
+      "projects": "{count} Projects",
+      "unlimitedProjects": "Unlimited Projects",
+      "basicAnalytics": "Basic Analytics",
+      "advancedAnalytics": "Advanced Analytics",
+      "communitySupport": "Community Support",
+      "prioritySupport": "Priority Support",
+      "storage": "{size} Storage",
+      "unlimitedStorage": "Unlimited Storage",
+      "customIntegration": "Custom Integration",
+      "dedicatedAccount": "Dedicated Account",
+      "sla": "SLA Guarantee"
+    }
+  },
+  "businessTypes": {
+    "equity": "Private Equity",
+    "hospitality": "Hospitality",
+    "wellness": "Wellness & Spa",
+    "retail": "Retail Operations",
+    "business": "Business Development"
+  }
+}

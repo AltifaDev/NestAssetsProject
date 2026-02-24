@@ -1,0 +1,491 @@
+{
+  "nav": {
+    "services": "サービス",
+    "portfolio": "ポートフォリオ",
+    "contact": "お問い合わせ",
+    "signIn": "サインイン",
+    "agentPortal": "エージェントポータル"
+  },
+  "hero": {
+    "title": "Nest of Assets Co, Ltd",
+    "subtitle": "プライベート・エクイティ：資産運用および事業開発",
+    "getConsultation": "コンサルテーションを予約",
+    "viewPortfolio": "ポートフォリオを見る",
+    "privateEquity": "プライベート・エクイティ",
+    "assetManagement": "資産運用",
+    "businessDevelopment": "事業開発"
+  },
+  "search": {
+    "properties": "物件",
+    "condos": "コンドミニアム",
+    "houses": "一戸建て・ヴィラ",
+    "land": "土地",
+    "commercial": "商業物件",
+    "investment": "投資",
+    "forSale": "販売中",
+    "forRent": "賃貸中",
+    "country": "タイ",
+    "cityPlaceholder": "都市またはプロジェクト...",
+    "priceRange": "価格帯",
+    "anyPrice": "指定なし",
+    "bedrooms": "ベッドルーム",
+    "anyBedrooms": "指定なし",
+    "search": "検索",
+    "advancedFilters": "詳細フィルター",
+    "minPrice": "最低価格",
+    "maxPrice": "最高価格",
+    "noLimit": "上限なし",
+    "under5m": "500万未満",
+    "5m10m": "500万 - 1000万",
+    "10m20m": "1000万 - 2000万",
+    "20mPlus": "2000万以上",
+    "studio": "スタジオ",
+    "1bed": "1ベッドルーム",
+    "2beds": "2ベッドルーム",
+    "3beds": "3ベッドルーム",
+    "4bedsPlus": "4ベッドルーム以上",
+    "physicalSpecs": "物理仕様",
+    "listingType": "物件タイプ",
+    "newProjects": "新築プロジェクト",
+    "resale": "中古物件",
+    "bathrooms": "バスルーム",
+    "any": "指定なし",
+    "livingArea": "居住面積 (平米)",
+    "min": "最小",
+    "max": "最大",
+    "amenitiesLifestyle": "アメニティ & ライフスタイル",
+    "viewHighlights": "ハイライトを表示",
+    "seaView": "🌊 オーシャンビュー",
+    "cityView": "🏙️ シティービュー",
+    "gardenView": "🌳 ガーデンビュー",
+    "resetAll": "すべてリセット",
+    "applyFilters": "フィルターを適用",
+    "worldRegions": "世界地域",
+    "allRegions": "すべての地域",
+    "asia": "アジア",
+    "europe": "ヨーロッパ",
+    "americas": "アメリカ",
+    "middleEast": "中東",
+    "africa": "アフリカ",
+    "searchDestination": "目的地を検索..."
+  },
+  "auth": {
+    "login": {
+      "title": "おかえりなさい",
+      "subtitle": "サインインして物件を探索し、お気に入りを保存しましょう",
+      "submit": "サインイン",
+      "togglePrompt": "Nest of Assetsは初めてですか？",
+      "toggleAction": "アカウントを作成"
+    },
+    "register": {
+      "title": "アカウント作成",
+      "subtitle": "理想の物件を見つけるために参加しましょう",
+      "submit": "アカウントを作成",
+      "togglePrompt": "すでにアカウントをお持ちですか？",
+      "toggleAction": "今すぐサインイン"
+    },
+    "fields": {
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "fullName": "氏名",
+      "phone": "電話番号",
+      "forgot": "パスワードを忘れた場合"
+    },
+    "placeholders": {
+      "email": "name@example.com",
+      "fullName": "山田 太郎",
+      "phone": "+66 XX XXX XXXX"
+    },
+    "social": {
+      "continueWith": "またはメールで続行",
+      "google": "Google",
+      "facebook": "Facebook"
+    },
+    "agentPortal": "エージェントポータルアクセス",
+    "messages": {
+      "alreadyRegistered": "このメールアドレスはすでに登録されています。サインインしてください。",
+      "confirmationSent": "確認メールを送信しました。続行するには確認してください。"
+    }
+  },
+  "agentLogin": {
+    "title": "エージェント",
+    "highlight": "アクセス",
+    "subtitle": "サインインしてリスティングを管理してください",
+    "placeholders": {
+      "email": "エージェントメール",
+      "password": "パスワード"
+    },
+    "submit": "ダッシュボードにログイン",
+    "errors": {
+      "accessDenied": "アクセスが拒否されました。このポータルはエージェント専用です。",
+      "loginFailed": "ログインに失敗しました。認証情報を確認してください。"
+    }
+  },
+  "features": {
+    "title": "包括的なビジネスソリューション",
+    "description": "タイでの成功を確実にするため、当社の専門知識と現地知識を活用し、お客様の特定のニーズに合わせた包括的なビジネスソリューションを提供します。",
+    "equity": "プライベート・エクイティ & 投資",
+    "hospitality": "ホスピタリティ & バー・セットアップ",
+    "massage": "マッサージ・ビジネス運営",
+    "realEstate": "不動産 & 買収",
+    "getStarted": "今すぐ始める",
+    "salesOvertime": "売上推移",
+    "monthlySales": "月間売上",
+    "totalProduct": "総製品数",
+    "revenue": "収益",
+    "salesCount": "{count} 件の売上",
+    "days": {
+      "jan1": "1月1日",
+      "jan2": "1月2日",
+      "jan3": "1月3日",
+      "jan4": "1月4日",
+      "jan5": "1月5日",
+      "jan6": "1月6日",
+      "jan7": "1月7日"
+    }
+  },
+  "roi": {
+    "title": "投資家のROIを最大化",
+    "description": "厳格な管理と戦略的改善を通じて、持続可能な成長と長期的な価値創造に焦点を当てています。",
+    "stableCashflow": "安定したキャッシュフロー",
+    "assetAppreciation": "資産価値の向上",
+    "operationalEfficiency": "運用効率",
+    "strategicExits": "戦略的エグジット",
+    "netProfit": "純利益"
+  },
+  "portfolio": {
+    "title": "多様な投資ポートフォリオ",
+    "description": "複数の業界にわたる高収益資産のバランスの取れたミックスにより、パートナーに安定性と長期的な成長を保証します。",
+    "hospitality": "ホスピタリティ & 観光",
+    "commercial": "商業不動産",
+    "retail": "小売運営",
+    "digital": "デジタル・ベンチャー",
+    "portfolioGrowth": "ポートフォリオ成長",
+    "revenueGrowth": "収益成長"
+  },
+  "propHub": {
+    "titleLeft": "当社のホームから...",
+    "titleLeftSub": "あなたのホームへ",
+    "descLeft": "不動産ジャーニーのあらゆるステップにおける専門的なガイダンス。",
+    "guideBadge": "不動産ガイド",
+    "guideTitle": "売買、賃貸、投資のための専門的なヒント",
+    "explore": "探索する",
+    "agentBadge": "不動産エージェント",
+    "agentTitle": "理想の住まいを見つけるためのプロのエージェント",
+    "findAgent": "エージェントを探す",
+    "titleRight": "あなたの",
+    "homeJourney": "ホームジャーニーを始める",
+    "descRight": "全国で最も期待されている新しいコレクションをご覧ください。",
+    "featuredBadge": "注目のコレクション 2026",
+    "dreamHomeTitle": "一等地の理想の住まいを見つけましょう",
+    "viewNewProjects": "新築プロジェクトを見る",
+    "newmarketPreview": "ニューマーケット・プレビュー"
+  },
+  "latestProjects": {
+    "title": "最新の <span class='text-gradient'>プロジェクト・ローンチ</span>",
+    "description": "王国内の可能性の高い場所にある、厳選されたプレミアムな不動産開発をご覧ください。",
+    "viewAll": "すべての物件を見る",
+    "newProject": "新築プロジェクト",
+    "startingPriceLabel": "開始価格",
+    "visitPortal": "フルポータルを訪問",
+    "priceValue": "{value}百万バーツ",
+    "types": {
+      "singleHouse": "一戸建て",
+      "condo": "コンドミニアム",
+      "luxuryCondo": "高級コンドミニアム",
+      "semiDetached": "セミデタッチドハウス"
+    }
+  },
+  "popularLocations": {
+    "title": "タイの <span class='text-gradient'>人気ロケーション</span>",
+    "searchByProvince": "県から検索",
+    "listingsTitle": "販売 & 賃貸リスティング",
+    "listingsDesc": "住まい探しでも投資でも、一戸建て、コンドミニアム、土地の幅広いリスティングを掲載しています。",
+    "condoTitle": "コンドミニアム・プロジェクト",
+    "condoDesc": "新築および中古のコンドミニアム・プロジェクトを探索。詳細情報、高品質な写真、一等地を紹介。",
+    "reviewsTitle": "新築プロジェクト・レビュー",
+    "reviewsDesc": "新しいコンドミニアムや一戸建てに関する深い洞察。情報に基づいた決定を下せるよう、細部までご案内します。",
+    "tipsTitle": "専門的な不動産のヒント",
+    "tipsDesc": "ローン、金利、税金など、売買や賃貸に関する知識を得るための主要なリソースです。",
+    "cities": {
+      "bangkok": "バンコク",
+      "nonthaburi": "ノンタブリー",
+      "pathumThani": "パトゥムターニー",
+      "chiangMai": "チェンマイ",
+      "chiangRai": "チェンライ",
+      "chonburi": "チョンブリ",
+      "huaHin": "フアヒン",
+      "phuket": "プーケット",
+      "rayong": "ラヨーン",
+      "suratThani": "スラートターニー",
+      "nakhonRatchasima": "ナコーンラーチャシーマー",
+      "khonKaen": "コーンケン",
+      "pattaya": "パタヤ",
+      "kohSamui": "コサムイ",
+      "pakChong": "パクチョン",
+      "phangNga": "パンガー"
+    }
+  },
+  "footer": {
+    "experience": "どこでも私たちのプラットフォームを体験",
+    "getItOn": "Google Playで入手",
+    "downloadOn": "App Storeからダウンロード",
+    "connect": "私たちとつながる",
+    "missionText": "タイを代表する不動産インテリジェンスハブ。王国内の不動産情勢をナビゲートしようとするバイヤー、レンター、機関投資家向けに、専門的なデータと包括的なプラットフォームを提供します。",
+    "aboutMission": "私たちのミッションについて",
+    "saleTitle": "物件を購入",
+    "rentTitle": "物件を借りる",
+    "newTitle": "新築プロジェクト",
+    "links": {
+      "luxuryCondos": "高級コンドミニアム",
+      "residentialHouses": "住宅",
+      "townhomes": "タウンホーム",
+      "investmentLand": "投資用土地",
+      "monthlyRentals": "マンスリーレンタル",
+      "servicedApartments": "サービスアパートメント",
+      "commercialSpace": "商業スペース",
+      "vacationHomes": "バケーションホーム",
+      "offPlanProjects": "オフプラン・プロジェクト",
+      "projectReviews": "プロジェクト・レビュー",
+      "investmentInsights": "投資インサイト"
+    },
+    "agentPortal": "エージェントポータルアクセス",
+    "copyright": "NEST OF ASSETS CO, LTD. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "クッキー管理"
+  },
+  "stats": {
+    "totalAssets": "総資産",
+    "managedBusinesses": "管理ビジネス",
+    "happyInvestors": "満足している投資家",
+    "yearlyGrowth": "年間成長",
+    "trustedBy": "15,000人以上の創業者やビジネスオーナーに信頼されています",
+    "hospitality": "ホスピタリティ",
+    "realEstate": "不動産",
+    "retail": "小売",
+    "investment": "投資",
+    "development": "開発",
+    "management": "管理"
+  },
+  "testimonials": {
+    "title": "投資家からの信頼",
+    "sarahText": "外国人投資家として、タイでのビジネス立ち上げの複雑さに不安を感じていました。Nest of Assetsは、あらゆるステップで専門的なガイダンスを提供し、プロセスを円滑に進めてくれました。",
+    "sarahAuthor": "サラ・ウィリアムズ",
+    "sarahRole": "ウェルネス・ベンチャーズ・インターナショナル マネージング・ディレクター",
+    "michaelText": "Nest of Assetsとの協力により、タイへのビジネス参入が一変しました。現地の規制をナビゲートする彼らの専門知識は非常に貴重でした。",
+    "michaelAuthor": "マイケル・トンプソン",
+    "michaelRole": "グローバル・ホスピタリティ・グループ CEO"
+  },
+  "finalCTA": {
+    "title": "投資の準備はできましたか？",
+    "description": "私たちと提携して、堅牢で収益性の高いポートフォリオを構築しましょう。",
+    "contactButton": "チームに連絡する"
+  },
+  "results": {
+    "headerTitle": "検索結果",
+    "searching": "検索中...",
+    "found": "{count} 件の物件が見つかりました",
+    "loadingList": "検索結果を読み込み中...",
+    "noPropertiesFound": "物件が見つかりませんでした",
+    "adjustFilters": "フィルターを調整してみてください",
+    "shareCompare": "共有 & 比較",
+    "forSale": "販売中",
+    "forRent": "賃貸中",
+    "minimize": "最小化",
+    "maximize": "最大化",
+    "close": "閉じる",
+    "sqm": "平米"
+  },
+  "detail": {
+    "home": "ホーム",
+    "save": "保存",
+    "share": "共有",
+    "copied": "コピー完了",
+    "contact": "連絡先",
+    "sale": "販売",
+    "rent": "賃貸",
+    "photos": "写真",
+    "viewAllPhotos": "すべての写真を見る",
+    "mainImageAlt": "メイン物件画像",
+    "galleryImageAlt": "物件画像 {index}",
+    "listingId": "物件ID",
+    "updated": "更新日",
+    "views": "閲覧数",
+    "times": "回",
+    "description": "説明",
+    "noDescription": "この物件の説明はありません。",
+    "details": "詳細",
+    "specs": {
+      "listingId": "物件ID",
+      "project": "プロジェクト",
+      "propertyType": "物件タイプ",
+      "floors": "階数",
+      "bedrooms": "ベッドルーム",
+      "bathrooms": "バスルーム",
+      "livingArea": "居住面積",
+      "landArea": "土地面積",
+      "parking": "駐車場",
+      "direction": "向き",
+      "yearBuilt": "築年",
+      "tenure": "所有区分",
+      "decoration": "内装",
+      "commonFee": "共益費",
+      "unitFloors": "階",
+      "unitRooms": "部屋",
+      "unitCars": "台",
+      "unitSqm": "平米",
+      "unitSqwa": "平方ワー"
+    },
+    "amenities": {
+      "title": "アメニティ",
+      "indoor": "室内",
+      "project": "プロジェクト",
+      "furniture": "家具",
+      "air_con": "エアコン",
+      "water_heater": "給湯器",
+      "digital_lock": "デジタルロック",
+      "bathtub": "バスタブ",
+      "stove": "コンロ（電気/ガス）",
+      "tv": "テレビ",
+      "refrigerator": "冷蔵庫",
+      "internet": "インターネット",
+      "smart_home": "スマートホーム",
+      "lift": "エレベーター",
+      "parking_facility": "駐車場",
+      "pool": "プール",
+      "gym": "ジム",
+      "cctv": "監視カメラ",
+      "security": "24時間セキュリティ",
+      "garden": "庭園/緑地",
+      "storage": "収納スペース"
+    },
+    "location": {
+      "title": "所在地",
+      "openInGoogleMaps": "Google マップで開く"
+    },
+    "nearby": {
+      "title": "周辺施設",
+      "transport": "交通",
+      "shop": "ショッピング",
+      "edu": "教育",
+      "hosp": "病院",
+      "noNearby": "この物件の周辺に {category} 施設は掲載されていません。"
+    },
+    "sidebar": {
+      "salePrice": "販売価格",
+      "rentPrice": "賃料 / 月",
+      "approxPrice": "≈ ฿ {price} / 平米",
+      "priceSummary": "価格概要",
+      "listingPrice": "掲載価格",
+      "pricePerSqm": "平米単価",
+      "pricePerSqwa": "平方ワー単価",
+      "scheduleTour": "内見を予約",
+      "pickDateTime": "日時を選択",
+      "bookTour": "内見を予約する",
+      "reportListing": "通報する"
+    },
+    "form": {
+      "title": "メッセージを送る",
+      "successTitle": "送信完了！",
+      "successDesc": "エージェントに通知されました。追って連絡があります。",
+      "namePlaceholder": "お名前 *",
+      "phonePlaceholder": "電話番号 *",
+      "emailPlaceholder": "メールアドレス *",
+      "messagePlaceholder": "メッセージ...",
+      "submitButton": "問い合わせる",
+      "sendingButton": "送信中..."
+    },
+    "agentRoles": {
+      "agent": "不動産エージェント",
+      "senior_agent": "シニアエージェント",
+      "broker": "ブローカー",
+      "consultant": "不動産コンサルタント",
+      "sales_manager": "セールスマネージャー"
+    },
+    "verified": "確認済み",
+    "message": "メッセージ",
+    "contactLine": "LINEで連絡",
+    "sendEmail": "メールを送る"
+  },
+  "whyChooseUs": {
+    "title": "当社が選ばれる理由",
+    "expertise": {
+      "title": "現地の専門知識",
+      "desc": "タイの市場、規制、ビジネス文化に関する深い理解。"
+    },
+    "trackRecord": {
+      "title": "実績",
+      "desc": "タイ全土でのビジネスの立ち上げと成長における一貫した成功。"
+    },
+    "solutions": {
+      "title": "包括的なソリューション",
+      "desc": "ビジネス運営のあらゆる側面をカバーするエンドツーエンドのサービス。"
+    },
+    "efficiency": {
+      "title": "時間効率",
+      "desc": "ビジネスを迅速に稼働させるための合理化されたプロセス。"
+    },
+    "growth": {
+      "title": "成長重視",
+      "desc": "ビジネスの可能性とROIを最大化するための戦略的アプローチ。"
+    },
+    "risk": {
+      "title": "リスク軽減",
+      "desc": "投資を保護するための徹底的なデューデリジェンスとコンプライアンスの専門知識。"
+    }
+  },
+  "sectors": {
+    "title": "カバーしているセクター",
+    "description": "弾力性があり、パフォーマンスの高いポートフォリオを構築するために、多様な業界に投資しています。",
+    "exploreAll": "すべてのセクターを探索",
+    "hospitality": "ホスピタリティ",
+    "realEstate": "不動産",
+    "retail": "小売",
+    "finance": "金融",
+    "logistics": "物流",
+    "wellness": "ウェルネス",
+    "tech": "テック",
+    "energy": "エネルギー"
+  },
+  "opportunities": {
+    "title": "高収益の機会をアンロック",
+    "description": "独占的なプライベート・エクイティ案件にアクセスし、資産ポートフォリオを拡大するために、Nest of Assetsと提携してください。",
+    "viewAll": "機会を見る",
+    "contact": "アクセスを問い合わせる",
+    "verified": "確認済みのリスティング",
+    "dueDiligence": "デューデリジェンス済み"
+  },
+  "pricing": {
+    "title": "透明性のある柔軟な価格設定",
+    "subtitle": "ビジネスの成長に適したプランを選択してください。",
+    "monthly": "月払い",
+    "yearly": "年払い (20% お得)",
+    "mostPopular": "最も人気",
+    "mo": "/月",
+    "custom": "カスタム",
+    "categories": {
+      "starter": "スターター",
+      "pro": "プロ",
+      "enterprise": "エンタープライズ"
+    },
+    "cta": {
+      "free": "無料で始める",
+      "started": "今すぐ始める",
+      "sales": "営業に連絡"
+    },
+    "features": {
+      "projects": "{count} プロジェクト",
+      "unlimitedProjects": "プロジェクト数無制限",
+      "basicAnalytics": "基本的な分析",
+      "advancedAnalytics": "高度な分析",
+      "communitySupport": "コミュニティサポート",
+      "prioritySupport": "優先サポート",
+      "storage": "{size} ストレージ",
+      "unlimitedStorage": "ストレージ無制限",
+      "customIntegration": "カスタム統合",
+      "dedicatedAccount": "専用アカウント",
+      "sla": "SLA 保証"
+    }
+  }
+}

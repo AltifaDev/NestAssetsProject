@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+
+# Env files
+.env
+.env.local
+.env.production
+*.env
+
+# Next.js
+.next/
+*/.next/
+
+# IDE & OS
+.vscode/
+.DS_Store
+*.log
+.kiro/
+
+# Production builds
+build/
+*/build/
