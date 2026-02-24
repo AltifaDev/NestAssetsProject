@@ -227,7 +227,7 @@ export default function PropertyDetailModal({ property, isOpen, onClose }: Prope
       const parsedPropertyId = property.id ? parseInt(property.id.toString(), 10) : null;
       const parsedAgentId = agentId ? parseInt(agentId.toString(), 10) : null;
 
-      const res = await fetch(`${payloadUrl}/api/leads`, {
+      const res = await fetch(`${apiUrl}/api/leads`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
