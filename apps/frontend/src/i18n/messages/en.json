@@ -499,5 +499,29 @@
     "wellness": "Wellness & Spa",
     "retail": "Retail Operations",
     "business": "Business Development"
+  },
+  "contactSection": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team to discuss how we can help you achieve your business goals in Thailand.",
+    "formTitle": "Send us a Message",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone (Optional)",
+    "message": "Message",
+    "submit": "Send Inquiry",
+    "infoTitle": "Contact Information",
+    "officeBkk": "Bangkok Headquarters",
+    "addressBkk": "246 Times Square Building, Unit 11-01, 11th Floor, Sukhumvit Road 12-14, Khlong Toei, Bangkok 10110",
+    "officePty": "Pattaya Branch",
+    "addressPty": "20, 15-16 Moo 10, Pattaya City, Bang Lamung, Chonburi 20150",
+    "phoneLabel": "Phone Number",
+    "thailand": "Thailand",
+    "canada": "Canada",
+    "emailLabel": "Email Address",
+    "hoursTitle": "Opening Hours",
+    "monFri": "Mon - Fri",
+    "sat": "Sat",
+    "sun": "Sun",
+    "closed": "Closed"
   }
 }

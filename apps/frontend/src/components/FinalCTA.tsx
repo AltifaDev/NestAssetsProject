@@ -1,7 +1,13 @@
+"use client";
+
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import ContactModal from "./ContactModal";
 
 export default function FinalCTA() {
     const t = useTranslations("finalCTA");
+    const [isContactModalOpen, setIsContactModalOpen] = useState(false);
+
     return (
         <section id="contact" className="py-[100px]">
             <div className="container mx-auto px-4">
@@ -12,10 +18,20 @@ export default function FinalCTA() {
                     </p>
 
                     <div>
-                        <a href="#" className="btn btn-primary px-12 py-5 text-lg rounded-full inline-block">{t("contactButton")}</a>
+                        <button
+                            onClick={() => setIsContactModalOpen(true)}
+                            className="btn btn-primary px-12 py-5 text-lg rounded-full inline-block cursor-pointer transition-transform hover:scale-105 active:scale-95"
+                        >
+                            {t("contactButton")}
+                        </button>
                     </div>
                 </div>
             </div>
+
+            <ContactModal
+                isOpen={isContactModalOpen}
+                onClose={() => setIsContactModalOpen(false)}
+            />
         </section>
     );
 }
