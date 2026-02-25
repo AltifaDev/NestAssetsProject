@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import { Link } from "@/i18n/navigation";
 import Logo from "./Logo";
 import ThemeToggle from "./ThemeToggle";
@@ -6,6 +9,9 @@ import { useTranslations } from 'next-intl';
 
 export default function Navbar() {
     const t = useTranslations('nav');
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return (
         <nav className="fixed top-5 left-1/2 -translate-x-1/2 w-[94%] max-w-[1400px] h-[70px] bg-[var(--nav-bg)] backdrop-blur-[20px] border border-[var(--nav-border)] rounded-full z-50 flex items-center shadow-2xl">
@@ -14,12 +20,14 @@ export default function Navbar() {
                     <Logo />
                 </div>
 
+                {/* Desktop Navigation */}
                 <div className="hidden lg:flex gap-10 items-center">
                     <a href="#services" className="text-[var(--text-secondary)] text-[0.95rem] font-medium transition-colors duration-300 py-5 hover:text-[var(--text-primary)]">{t('services')}</a>
                     <a href="#portfolio" className="text-[var(--text-secondary)] text-[0.95rem] font-medium transition-colors duration-300 py-5 hover:text-[var(--text-primary)]">{t('portfolio')}</a>
                     <a href="#contact" className="text-[var(--text-secondary)] text-[0.95rem] font-medium transition-colors duration-300 py-5 hover:text-[var(--text-primary)]">{t('contact')}</a>
                 </div>
 
+                {/* Desktop Actions */}
                 <div className="hidden lg:flex items-center gap-6 group">
                     <LanguageSelector />
                     <ThemeToggle />
@@ -37,15 +45,56 @@ export default function Navbar() {
                     </Link>
                 </div>
 
-                {/* Mobile Menu Button */}
-                <button className="lg:hidden block" aria-label="Toggle Menu">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-[var(--text-primary)]">
-                        <line x1="3" y1="12" x2="21" y2="12"></line>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <line x1="3" y1="18" x2="21" y2="18"></line>
-                    </svg>
-                </button>
+                {/* Mobile Controls */}
+                <div className="flex lg:hidden items-center gap-4">
+                    <ThemeToggle />
+                    <button
+                        className="p-2 transition-colors rounded-lg hover:bg-[var(--bg-glass)]"
+                        aria-label="Toggle Menu"
+                        onClick={toggleMenu}
+                    >
+                        {isMenuOpen ? (
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-[var(--text-primary)]">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                        ) : (
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="text-[var(--text-primary)]">
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                        )}
+                    </button>
+                </div>
             </div>
+
+            {/* Mobile Menu Overlay */}
+            {isMenuOpen && (
+                <div className="absolute top-[85px] left-0 right-0 bg-[var(--nav-bg)] backdrop-blur-[20px] border border-[var(--nav-border)] rounded-3xl p-6 mx-4 shadow-2xl flex flex-col gap-6 lg:hidden animate-in fade-in slide-in-from-top-4 duration-300">
+                    <div className="flex flex-col gap-4">
+                        <a href="#services" onClick={() => setIsMenuOpen(false)} className="text-[var(--text-secondary)] text-lg font-medium py-2 px-4 rounded-xl hover:bg-[var(--bg-glass)] hover:text-[var(--text-primary)] transition-all">{t('services')}</a>
+                        <a href="#portfolio" onClick={() => setIsMenuOpen(false)} className="text-[var(--text-secondary)] text-lg font-medium py-2 px-4 rounded-xl hover:bg-[var(--bg-glass)] hover:text-[var(--text-primary)] transition-all">{t('portfolio')}</a>
+                        <a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-[var(--text-secondary)] text-lg font-medium py-2 px-4 rounded-xl hover:bg-[var(--bg-glass)] hover:text-[var(--text-primary)] transition-all">{t('contact')}</a>
+                    </div>
+
+                    <hr className="border-[var(--nav-border)]" />
+
+                    <div className="flex flex-col gap-4">
+                        <div className="flex justify-between items-center px-4">
+                            <span className="text-[var(--text-secondary)] font-medium">{t('language')}</span>
+                            <LanguageSelector />
+                        </div>
+                        <Link
+                            href="/login"
+                            onClick={() => setIsMenuOpen(false)}
+                            className="btn btn-outline rounded-xl w-full py-4 text-center justify-center text-base"
+                        >
+                            {t('signIn')}
+                        </Link>
+                    </div>
+                </div>
+            )}
         </nav>
     );
 }

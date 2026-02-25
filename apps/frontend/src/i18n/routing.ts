@@ -9,5 +9,8 @@ export const routing = defineRouting({
     defaultLocale,
 
     // Optional: Locale prefix strategy: 'always' | 'as-needed' | 'never'
-    localePrefix: 'as-needed'
+    localePrefix: 'as-needed',
+
+    // Force English as default regardless of browser language
+    localeDetection: false
 });
